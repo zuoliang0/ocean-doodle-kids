@@ -1,0 +1,54 @@
+[
+  {
+    "id": "annotation_72c5f62b3cda4761",
+    "pageId": "page_page-6",
+    "sourceImagePath": "assets/pages/page_page-6/versions/v001.png",
+    "selection": {
+      "x": 282,
+      "y": 5,
+      "width": 910,
+      "height": 136
+    },
+    "note": "不需要标题下面的透明玻璃效果",
+    "createdAt": "2026-05-08T01:00:43.874Z"
+  },
+  {
+    "id": "annotation_6bea9dc7c10d40a1",
+    "pageId": "page_page-6",
+    "sourceImagePath": "assets/pages/page_page-6/versions/v001.png",
+    "selection": {
+      "x": 1283,
+      "y": 22,
+      "width": 318,
+      "height": 107
+    },
+    "note": "不用这个省电模式开关",
+    "createdAt": "2026-05-08T01:00:59.299Z"
+  },
+  {
+    "id": "annotation_8e8fe67141eb4dbf",
+    "pageId": "page_page-6",
+    "sourceImagePath": "assets/pages/page_page-6/versions/v001.png",
+    "selection": {
+      "x": 1386,
+      "y": 133,
+      "width": 182,
+      "height": 62
+    },
+    "note": "不用低粒子",
+    "createdAt": "2026-05-08T01:01:16.922Z"
+  },
+  {
+    "id": "annotation_0f01e9880a9f41c0",
+    "pageId": "page_page-6",
+    "sourceImagePath": "assets/pages/page_page-6/versions/v001.png",
+    "selection": {
+      "x": 67,
+      "y": 673,
+      "width": 477,
+      "height": 230
+    },
+    "note": "不需要这个去掉价小伙伴",
+    "createdAt": "2026-05-08T01:01:42.138Z"
+  }
+]

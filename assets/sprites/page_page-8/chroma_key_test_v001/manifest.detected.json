@@ -1,0 +1,58 @@
+{
+  "spriteWidth": 1254,
+  "spriteHeight": 1254,
+  "components": [
+    {
+      "id": "component_01",
+      "path": "/Users/zuoliang/Documents/儿童海洋涂鸦项目/assets/sprites/page_page-8/chroma_key_test_v001/slices/component_01.png",
+      "bbox": {
+        "x": 170,
+        "y": 150,
+        "width": 308,
+        "height": 322
+      },
+      "area": 71029,
+      "transparentPixels": 28147,
+      "partialAlphaPixels": 0
+    },
+    {
+      "id": "component_02",
+      "path": "/Users/zuoliang/Documents/儿童海洋涂鸦项目/assets/sprites/page_page-8/chroma_key_test_v001/slices/component_02.png",
+      "bbox": {
+        "x": 637,
+        "y": 205,
+        "width": 500,
+        "height": 225
+      },
+      "area": 93623,
+      "transparentPixels": 18877,
+      "partialAlphaPixels": 0
+    },
+    {
+      "id": "component_03",
+      "path": "/Users/zuoliang/Documents/儿童海洋涂鸦项目/assets/sprites/page_page-8/chroma_key_test_v001/slices/component_03.png",
+      "bbox": {
+        "x": 96,
+        "y": 617,
+        "width": 446,
+        "height": 442
+      },
+      "area": 173120,
+      "transparentPixels": 24005,
+      "partialAlphaPixels": 0
+    },
+    {
+      "id": "component_04",
+      "path": "/Users/zuoliang/Documents/儿童海洋涂鸦项目/assets/sprites/page_page-8/chroma_key_test_v001/slices/component_04.png",
+      "bbox": {
+        "x": 630,
+        "y": 618,
+        "width": 527,
+        "height": 445
+      },
+      "area": 209024,
+      "transparentPixels": 25488,
+      "partialAlphaPixels": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "assets" : [
+    {
+      "description" : "基于参考图重绘\/精修的橙红色开始涂色主卡片，包含蜡笔图标、浅浮雕海洋涂鸦纹理与加载状态，透明背景。",
+      "name" : "开始涂色主卡片",
+      "outputPath" : "assets\/sprites\/page_page-2\/codex-poc\/split\/selection_a8a84bfb99b2412c.png",
+      "selectionId" : "selection_a8a84bfb99b2412c",
+      "spriteRect" : {
+        "height" : 560,
+        "width" : 640,
+        "x" : 128,
+        "y" : 128
+      }
+    },
+    {
+      "description" : "基于参考图重绘\/精修的白色弧形引导箭头，带柔和蓝色投影，透明背景。",
+      "name" : "引导箭头",
+      "outputPath" : "assets\/sprites\/page_page-2\/codex-poc\/split\/selection_c73474d82fd54485.png",
+      "selectionId" : "selection_c73474d82fd54485",
+      "spriteRect" : {
+        "height" : 260,
+        "width" : 320,
+        "x" : 896,
+        "y" : 128
+      }
+    },
+    {
+      "description" : "基于参考图重绘\/精修的蓝色我的作品卡片，包含相册缩略图图标、海草暗纹和立体底边，透明背景。",
+      "name" : "我的作品卡片",
+      "outputPath" : "assets\/sprites\/page_page-2\/codex-poc\/split\/selection_4cfd00f5218646a2.png",
+      "selectionId" : "selection_4cfd00f5218646a2",
+      "spriteRect" : {
+        "height" : 540,
+        "width" : 660,
+        "x" : 1344,
+        "y" : 128
+      }
+    },
+    {
+      "description" : "基于参考图重绘\/精修的应用 Logo 区，包含圆角图标内的小鲸鱼和蓝白描边标题字，透明背景。",
+      "name" : "应用 Logo 区",
+      "outputPath" : "assets\/sprites\/page_page-2\/codex-poc\/split\/selection_ebe8f714923f48ce.png",
+      "selectionId" : "selection_ebe8f714923f48ce",
+      "spriteRect" : {
+        "height" : 300,
+        "width" : 760,
+        "x" : 128,
+        "y" : 832
+      }
+    }
+  ],
+  "height" : 4096,
+  "schemaVersion" : "1.0",
+  "spritePath" : "assets\/sprites\/page_page-2\/codex-poc\/sprite_v001.png",
+  "width" : 4096
+}

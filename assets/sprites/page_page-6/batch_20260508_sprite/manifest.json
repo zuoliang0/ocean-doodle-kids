@@ -1,0 +1,67 @@
+{
+  "spritePath": "assets/sprites/page_page-6/batch_20260508_sprite/sprite.png",
+  "width": 1254,
+  "height": 1254,
+  "assets": [
+    {
+      "selectionId": "selection_2576d973f1274b01",
+      "name": "主页返回按钮",
+      "description": "海洋世界页面左上角使用的圆形主页返回按钮，蓝色玻璃质感底面、白色房子图标和浅蓝高光描边，适合作为儿童 Pad 横屏海洋场景的顶部控制入口。",
+      "spriteRect": {
+        "x": 73,
+        "y": 145,
+        "width": 235,
+        "height": 241
+      },
+      "outputPath": "assets/slices/page_page-6/asset_a47c20e944cb4028.png"
+    },
+    {
+      "selectionId": "selection_cc40ce9ca4e04c1f",
+      "name": "海洋世界标题字",
+      "description": "海洋世界页面顶部标题字素材，文字为“海洋世界”，白色圆润字面配深浅蓝描边和轻微投影，用于沉浸式海洋展示页标题。",
+      "spriteRect": {
+        "x": 365,
+        "y": 185,
+        "width": 560,
+        "height": 164
+      },
+      "outputPath": "assets/slices/page_page-6/asset_7621b512b17c4028.png"
+    },
+    {
+      "selectionId": "selection_a679e8fb04d74af8",
+      "name": "音量开启按钮",
+      "description": "海洋世界页面右上角使用的圆形音量开启按钮，蓝色玻璃质感底面、白色扬声器和声波图标，带浅蓝高光描边，适合顶部控制条声音开关状态。",
+      "spriteRect": {
+        "x": 946,
+        "y": 145,
+        "width": 234,
+        "height": 239
+      },
+      "outputPath": "assets/slices/page_page-6/asset_d7b73897bd3a4f31.png"
+    },
+    {
+      "selectionId": "selection_da71ea9b6c704086",
+      "name": "作品信息卡底板",
+      "description": "海洋世界页面点击作品后弹出的右侧信息卡底板，白蓝半透明圆角面板、青色外发光和顶部海洋缩略图框；不含中间海豚、作品文字和底部按钮，便于后续叠加动态内容。",
+      "spriteRect": {
+        "x": 91,
+        "y": 465,
+        "width": 579,
+        "height": 697
+      },
+      "outputPath": "assets/slices/page_page-6/asset_bb13b47009b940b5.png"
+    },
+    {
+      "selectionId": "selection_a212b1647ae74011",
+      "name": "去预览按钮",
+      "description": "海洋世界作品信息卡底部使用的蓝色圆角主按钮，文字为“去预览”，带白色描边、高光和下沿阴影，用于跳转作品预览的主要操作。",
+      "spriteRect": {
+        "x": 684,
+        "y": 971,
+        "width": 506,
+        "height": 174
+      },
+      "outputPath": "assets/slices/page_page-6/asset_873843974f4a47d8.png"
+    }
+  ]
+}

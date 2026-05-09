@@ -1,0 +1,3024 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "project_3cd7c16aa816465f",
+    "name": "儿童海洋涂鸦-MVP",
+    "createdAt": "2026-05-07T05:19:58.321Z",
+    "updatedAt": "2026-05-08T06:44:32.127Z"
+  },
+  "documents": [
+    {
+      "type": "chat-history",
+      "title": "沟通记录",
+      "path": "docs/chat-history.md",
+      "updatedAt": "2026-05-07T05:37:08.466Z"
+    },
+    {
+      "type": "prd",
+      "title": "PRD",
+      "path": "docs/prd.md",
+      "updatedAt": "2026-05-07T05:37:08.466Z"
+    },
+    {
+      "type": "feature-plan",
+      "title": "功能规划",
+      "path": "docs/feature-plan.md",
+      "updatedAt": "2026-05-07T05:37:08.466Z"
+    },
+    {
+      "type": "technical-plan",
+      "title": "技术方案",
+      "path": "docs/technical-plan.md",
+      "updatedAt": "2026-05-08T01:10:46.828Z"
+    },
+    {
+      "type": "page-plan",
+      "title": "页面规划",
+      "path": "docs/page-plan.md",
+      "updatedAt": "2026-05-07T07:03:33.076Z"
+    },
+    {
+      "type": "feature-list",
+      "title": "功能清单",
+      "path": "docs/feature-list.md",
+      "updatedAt": "2026-05-07T05:37:08.466Z"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page_page-2",
+      "name": "启动与主页",
+      "route": "/",
+      "description": "应用入口与主分流页，承载开始涂色、我的作品、海洋世界、设置与帮助入口，并处理首次引导、资源预加载和退出防误触。",
+      "uiPrompt": "面向儿童 Pad 横屏的海洋主题启动与主页。整体为清爽浅蓝到青绿色海水背景，带少量气泡、海浪和柔和光束装饰，低文字负担。顶部左侧放应用 Logo 与“海洋涂鸦”品牌标识，右上角放无文字的圆形图标按钮，包含声音开关和设置入口，图标足够大且有按下反馈。主内容区使用大面积分流入口：中央突出高对比主按钮“开始涂色”，配蜡笔或海洋伙伴图标；旁边或下方放“我的作品”和“海洋世界”两个次级入口卡片，三者触控面积一致，间距充足，适合儿童大手指点击。底部不放冗余说明文字或口号，保持界面干净。首次启动时覆盖半透明新手引导浮层，用箭头指向“开始涂色”，提供跳过按钮；非首次启动不显示。点击开始涂色进入模板选择，点击我的作品进入作品库，点击海洋世界进入动态展示页。系统返回或手势返回时出现防误退确认弹层，按钮文案短、对比清晰。视觉风格童趣但克制，圆角、阴影和动画轻量，横屏布局重心居中，保证所有主要入口在首屏可见。",
+      "imagePath": "assets/pages/page_page-2/versions/v001.png",
+      "needUpdate": true,
+      "assetIds": [
+        "asset_90b55477cbda4715",
+        "asset_d55a184f5d09475b",
+        "asset_938ae150586c4a4c",
+        "asset_ed5d544bc4d04287",
+        "asset_53fab89d721a4608",
+        "asset_07c9b06d6da94066",
+        "asset_abc23f7eb8364c3d",
+        "asset_9d2fbd06319349b4",
+        "asset_78ee94c0298547b9",
+        "asset_df94f2e410b34c35",
+        "asset_eb4d04ea82894c70"
+      ]
+    },
+    {
+      "id": "page_page-3",
+      "name": "模板选择",
+      "route": "/templates",
+      "description": "海洋涂色模板选择页，按主题和难度展示模板卡片，点击模板直接进入涂色编辑器，并支持加载、失败和空状态。",
+      "uiPrompt": "面向儿童 Pad 横屏的模板选择页。顶部固定导航栏左侧为返回主页图标按钮，中间标题“选择一个海洋伙伴”，右侧为可折叠筛选按钮和声音图标。标题栏下方是横向分类标签区，包含推荐、简单、进阶、鱼类、贝壳、潜艇等主题，标签为大圆角胶囊，当前选中态颜色明显。主体为大间距模板卡片栅格，Pad 横屏下展示 3 到 4 列；每张卡片包含海洋动物或物件线稿缩略图、模板名称、难度星级和简短信息，卡片圆角、轻阴影、边界清晰。点击卡片直接进入对应涂色页，不展示复杂大图预览；首次进入编辑器前可出现轻提示说明点按涂色与撤销。滚动加载状态使用蓝灰色骨架屏占位；加载失败显示重试按钮；无模板时显示简洁海洋插画和“稍后再试”或“返回主页”操作。整体背景延续浅海风格，装饰气泡保持低干扰，按钮与卡片按下时有轻微缩放反馈，触控目标尺寸统一且适合儿童操作。",
+      "imagePath": "assets/pages/page_page-3/versions/v001.png",
+      "needUpdate": true,
+      "assetIds": [
+        "asset_6d1189840142493b",
+        "asset_9bad61b099914b6a",
+        "asset_a3c01a39d5a44c6b",
+        "asset_ce6bd54ca7c641da",
+        "asset_f5070e6627e34c30",
+        "asset_67dc9df5c1ca41aa",
+        "asset_76b9a27523dc4ea5",
+        "asset_294185f3b03b47eb",
+        "asset_297d77424838408d",
+        "asset_5f58779077fe4363"
+      ]
+    },
+    {
+      "id": "page_page-3_2",
+      "name": "涂色编辑器",
+      "route": "/color/:templateId",
+      "description": "核心涂色编辑页，支持点按封闭区域填色、画笔与调色盘、撤销重做、橡皮、清空、保存、完成生成作品，以及保存中和误退保护。",
+      "uiPrompt": "面向儿童 Pad 横屏的涂色编辑器页面。界面以画布为中心，线稿画布占据主要区域，背景简洁浅海色，避免干扰涂色边界。顶部左侧仅保留无文字返回按钮，中间可显示模板名称，右侧放撤销、重做、保存状态和完成按钮；不显示完成度提示，不放多余说明气泡，不在画布旁展示冗余提示面板。底部为统一工具与调色盘区域，大图标按钮从左到右包含填色模式、画笔模式、橡皮擦、清空、常用颜色色块和更多颜色入口；画笔模式启用时橡皮擦可用，填色模式下弱化或隐藏橡皮擦。色块使用高饱和儿童友好颜色，数量适中，当前颜色有清晰描边和轻微放大状态。画布加载时显示线稿骨架或简洁进度提示；点按封闭区域后立即填充并有轻微高亮、缩放或音效反馈；点按不可涂区域时仅出现短暂轻提示“这里不能涂色哦”，不阻断操作。清空为高风险操作，点击后出现二次确认弹层。涂色后自动保存，保存中显示小型状态提示；离开编辑器时如果还有未完成保存任务，显示“正在保存”并阻止误退。点击完成后生成作品并进入完成预览页。整体控件大、边距足、横屏双手握持时底部工具易触达。",
+      "imagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "needUpdate": true,
+      "assetIds": []
+    },
+    {
+      "id": "page_page-4",
+      "name": "完成预览与入海",
+      "route": "/preview/:artworkId",
+      "description": "作品完成后的预览页，展示最终作品，提供继续涂色、送入海洋、查看海洋世界等动作，并处理入海动画和失败状态。",
+      "uiPrompt": "面向儿童 Pad 横屏的完成预览页。背景为柔和海浪纹理和浅海渐变，中央展示大幅作品预览，占据主要视觉面积，可带浅色圆角展示容器但不喧宾夺主。顶部左侧为返回或继续编辑入口，中间标题为简短鼓励语，右侧可显示作品已保存状态。底部操作区包含主按钮“送入海洋”，使用高对比珊瑚橙并最大化可点击面积；次要按钮“继续涂色”使用蓝色描边或浅底样式，分享或导出入口若出现应作为低优先级图标按钮收纳。点击送入海洋后进入动画状态：作品被泡泡包裹、缓慢下沉或游入海中，按钮隐藏或禁用，显示“正在送入海洋”进度提示；成功后出现轻量提示卡，提供“去海洋世界看看”按钮进入海洋世界。点击继续涂色返回对应模板编辑器并保持当前作品。保存或空间不足失败时显示可操作错误弹层，包含取消和去设置清理入口。整体视觉具有轻庆祝感，星光和气泡动画节制，文字短、按钮大、横屏中心构图稳定。",
+      "imagePath": "assets/pages/page_page-4/versions/v001.png",
+      "needUpdate": true,
+      "assetIds": [
+        "asset_a2299903d3aa43b1",
+        "asset_fe9d709bc7db4884",
+        "asset_dcf3235a1bc044a1",
+        "asset_196a763633e24704",
+        "asset_78f19d0ad3934f69",
+        "asset_65ae53bf3c3e4b74",
+        "asset_53ad3b1bba9549db",
+        "asset_5aa03fc3b72348eb",
+        "asset_02278d8bd45d48c3",
+        "asset_13d0f08f506b401a",
+        "asset_30ac8ed999684b17"
+      ]
+    },
+    {
+      "id": "page_page-6",
+      "name": "海洋世界",
+      "route": "/ocean",
+      "description": "动态海洋展示页，将已入海作品融入海底场景，支持点击作品查看信息卡，并提供返回主页、去预览、声音控制和空状态引导。",
+      "uiPrompt": "面向儿童 Pad 横屏的沉浸式海洋世界页面。全屏场景由多层视差组成：远景为海水渐变和光束，中景为缓慢摆动的海草、珊瑚和鱼群，前景有少量气泡；动画柔和，避免眩晕。顶部悬浮半透明控制条包含主页返回按钮、页面标题、音量开关和性能保护状态提示，控件不遮挡主要作品。已入海作品以无背景海洋动物纹理融入场景，不使用展示相框；每个动物按不同深度层级、路径、速度和朝向缓慢游动，带轻微摆尾、摆鳍、缩放透视和前后层级变化，形成接近 3D 的空间感。点击某个海洋动物时，该动物轻弹、高亮并出现水波反馈，右侧或底部弹出信息卡，显示作品缩略图、作者为本机、时间、模板名和“去预览”按钮；点击空白处关闭信息卡。无入海作品时中央显示友好空状态插画和大按钮“去涂色添加伙伴”。性能保护状态下减少同时游动数量、粒子数量和背景动画复杂度。整体视觉清爽、层次明确、可交互目标大，适合 Pad 横屏观察和点击。",
+      "imagePath": "assets/pages/page_page-6/versions/v003.png",
+      "assetIds": [
+        "asset_a47c20e944cb4028",
+        "asset_7621b512b17c4028",
+        "asset_d7b73897bd3a4f31",
+        "asset_bb13b47009b940b5",
+        "asset_873843974f4a47d8"
+      ]
+    },
+    {
+      "id": "page_page-7",
+      "name": "我的作品",
+      "route": "/gallery",
+      "description": "本地作品库页面，按时间倒序展示草稿和已入海作品，支持查看预览、继续编辑和单个删除，并提供空状态引导。",
+      "uiPrompt": "针对参考图片 assets/pages/page_page-7/versions/v001.png 的批注：\n批注 ID：annotation_b9e0ca9a1ddc4ebe\n区域：x=1458, y=6, width=201, height=127\n去掉这个管理按钮",
+      "imagePath": "assets/pages/page_page-7/versions/v002.png",
+      "assetIds": [
+        "asset_a18e539ba1844201",
+        "asset_a2be978373344110",
+        "asset_a6072a1c836f4cc9",
+        "asset_7cf4ef7f193f49de",
+        "asset_1ad4f02e213b4dfb",
+        "asset_c945d99c978547fd",
+        "asset_25b5885d5c564812",
+        "asset_b55771bcd01740ef",
+        "asset_cb81c539eeaa4308",
+        "asset_f8ed36b889414074",
+        "asset_4562e08313474162",
+        "asset_478491f1ecd44614"
+      ]
+    },
+    {
+      "id": "page_page-8",
+      "name": "设置与帮助",
+      "route": "/settings",
+      "description": "设置、帮助与隐私说明页，包含声音、数据管理、基础操作说明、隐私说明入口以及清理缓存或重置应用等高风险操作确认。",
+      "uiPrompt": "面向儿童 Pad 横屏的设置与帮助页面。整体为左右分栏布局：左侧是大字号分组导航，包含声音、数据、帮助、关于和隐私说明；右侧为当前分组内容区，使用清晰列表行和少量步骤卡。顶部栏左侧返回主页，中间标题“设置与帮助”。声音分组包含背景音乐开关、音效开关和音量滑杆，开关尺寸大、状态颜色明确。帮助分组用三到四张横向步骤卡说明选模板、点按涂色、撤销、完成入海，每张卡有图标和短句。隐私说明入口展示简洁说明，强调无需登录、本地保存、儿童友好。数据分组显示存储占用或缓存状态，并提供清理缓存、重置应用等警示按钮；高风险操作先出现家长门禁算术题，再出现二次确认弹层，明确说明会影响本地作品或缓存。所有列表项高度充足，点击反馈明显，文本行距大，视觉清爽克制，避免信息拥挤，适配 Pad 横屏左右手触控。",
+      "imagePath": "assets/pages/page_page-8/versions/v002.png",
+      "assetIds": [
+        "asset_dc3819fe15ec49fe",
+        "asset_1858b30c6deb4540",
+        "asset_651e239072604e32",
+        "asset_188fc29d580841c4",
+        "asset_d408c98487bc41ec",
+        "asset_94541af5591c4c05",
+        "asset_e2a4da844039498c",
+        "asset_6d54a6ff4b3c4868",
+        "asset_2062640e45a34119",
+        "asset_5e152e3f572e4b1c",
+        "asset_70b32e31228640b7",
+        "asset_e9a00c1b8e784edb",
+        "asset_95502f4241a14fab",
+        "asset_7d2cd8c18bc8410f",
+        "asset_7d94e331ee3c49fd",
+        "asset_886a98c22c55418e",
+        "asset_49692741f7454897",
+        "asset_28f0af5470de4a0b",
+        "asset_911e2460bc2b4a0d",
+        "asset_b90648fac7f54fb6",
+        "asset_f29b1fabf33646df",
+        "asset_aab46243e6e848b9",
+        "asset_30daa121d4104dae",
+        "asset_e8b6ef2b99fe45c3",
+        "asset_f40165cf83fa4da4",
+        "asset_da31384346ee4c29",
+        "asset_d69eab28d7cd4312"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_90b55477cbda4715",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "开始涂色按钮",
+      "path": "assets/slices/page_page-2/asset_90b55477cbda4715.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 461,
+        "y": 161,
+        "width": 380,
+        "height": 334
+      },
+      "selectionId": "selection_a8a84bfb99b2412c",
+      "prompt": "启动与主页使用的橙色圆角主按钮素材，包含蜡笔图标与“开始涂色”标题，已去除加载中状态并处理为透明背景 PNG。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_d55a184f5d09475b",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "引导箭头",
+      "path": "assets/slices/page_page-2/asset_d55a184f5d09475b.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 347,
+        "y": 269,
+        "width": 142,
+        "height": 112
+      },
+      "selectionId": "selection_c73474d82fd54485",
+      "prompt": "首次引导提示使用的白色弧形箭头素材，用于指向开始涂色入口，带轻微阴影与透明背景。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_938ae150586c4a4c",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "我的作品按钮",
+      "path": "assets/slices/page_page-2/asset_938ae150586c4a4c.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 852,
+        "y": 170,
+        "width": 392,
+        "height": 323
+      },
+      "selectionId": "selection_4cfd00f5218646a2",
+      "prompt": "启动与主页使用的蓝色圆角功能卡片，包含相册图标与“我的作品”标题，适合作为作品库入口按钮。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_ed5d544bc4d04287",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "应用标题标识",
+      "path": "assets/slices/page_page-2/asset_ed5d544bc4d04287.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 23,
+        "y": 12,
+        "width": 365,
+        "height": 139
+      },
+      "selectionId": "selection_ebe8f714923f48ce",
+      "prompt": "启动与主页顶部品牌标识素材，包含鲸鱼应用图标与“海洋涂鸦”标题字，透明背景可叠加在海洋背景上。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_53fab89d721a4608",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "声音按钮",
+      "path": "assets/slices/page_page-2/asset_53fab89d721a4608.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1268,
+        "y": 34,
+        "width": 145,
+        "height": 98
+      },
+      "selectionId": "selection_f96d49d3d07d4b6e",
+      "prompt": "主页右上角圆形声音控制按钮素材，蓝色玻璃质感底座与白色扬声器图标，无文字。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_07c9b06d6da94066",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "设置按钮",
+      "path": "assets/slices/page_page-2/asset_07c9b06d6da94066.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1416,
+        "y": 27,
+        "width": 107,
+        "height": 113
+      },
+      "selectionId": "selection_7b13118d4b1f42be",
+      "prompt": "主页右上角圆形设置按钮素材，蓝色玻璃质感底座与白色齿轮图标，无文字，适合作为设置入口。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_abc23f7eb8364c3d",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "帮助按钮",
+      "path": "assets/slices/page_page-2/asset_abc23f7eb8364c3d.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1536,
+        "y": 31,
+        "width": 102,
+        "height": 109
+      },
+      "selectionId": "selection_aed9d581e22940ac",
+      "prompt": "主页右上角圆形帮助按钮素材，蓝色玻璃质感底座与白色问号图标，无说明文字。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_9d2fbd06319349b4",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "退出确认弹窗",
+      "path": "assets/slices/page_page-2/asset_9d2fbd06319349b4.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1184,
+        "y": 507,
+        "width": 444,
+        "height": 354
+      },
+      "selectionId": "selection_a12902cc57db4d50",
+      "prompt": "退出确认弹窗背景素材，白色圆角面板、底部海浪装饰、海草与气泡，中心区域留空便于叠加标题和按钮。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_78ee94c0298547b9",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "海洋世界按钮",
+      "path": "assets/slices/page_page-2/asset_78ee94c0298547b9.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 459,
+        "y": 513,
+        "width": 367,
+        "height": 290
+      },
+      "selectionId": "selection_d60f1668456447d1",
+      "prompt": "启动与主页使用的绿色圆角功能卡片，包含泡泡小鱼图标与“海洋世界”标题，适合作为海洋世界入口按钮。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_df94f2e410b34c35",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "蓝色确认按钮背景",
+      "path": "assets/slices/page_page-2/asset_df94f2e410b34c35.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1233,
+        "y": 657,
+        "width": 151,
+        "height": 85
+      },
+      "selectionId": "selection_d9e4350510774be6",
+      "prompt": "退出确认弹窗中的蓝色圆角按钮背景素材，无文字，适合叠加“留下”等确认类按钮文案。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_eb4d04ea82894c70",
+      "pageId": "page_page-2",
+      "type": "slice",
+      "name": "橙色退出按钮背景",
+      "path": "assets/slices/page_page-2/asset_eb4d04ea82894c70.png",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1402,
+        "y": 649,
+        "width": 170,
+        "height": 96
+      },
+      "selectionId": "selection_46ce8756a58c4c22",
+      "prompt": "退出确认弹窗中的橙红色圆角按钮背景素材，无文字，适合叠加“退出”等离开或警示类按钮文案。",
+      "createdAt": "2026-05-07T11:49:24.843Z"
+    },
+    {
+      "id": "asset_6d1189840142493b",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "主页返回按钮",
+      "path": "assets/slices/page_page-3/asset_6d1189840142493b.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 16,
+        "y": 10,
+        "width": 128,
+        "height": 123
+      },
+      "selectionId": "selection_57919f1aa8024e1d",
+      "prompt": "模板选择页顶部左侧使用的圆形蓝色主页返回按钮，白色房子图标、厚白描边和轻阴影，适合叠加在浅海背景上。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_9bad61b099914b6a",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "推荐分类选中标签",
+      "path": "assets/slices/page_page-3/asset_9bad61b099914b6a.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 134,
+        "y": 123,
+        "width": 174,
+        "height": 90
+      },
+      "selectionId": "selection_b6f267437ec94992",
+      "prompt": "模板选择页分类栏的推荐选中态胶囊标签，橙色高亮、白色描边，并带右上角黄色星标装饰。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_a3c01a39d5a44c6b",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "简单分类标签",
+      "path": "assets/slices/page_page-3/asset_a3c01a39d5a44c6b.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 308,
+        "y": 124,
+        "width": 167,
+        "height": 86
+      },
+      "selectionId": "selection_7e71ffb7ae464e86",
+      "prompt": "模板选择页分类栏的未选中简单胶囊标签，白色亮面底、蓝灰描边和深蓝中文文字，用于横向筛选标签。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_ce6bd54ca7c641da",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "筛选按钮",
+      "path": "assets/slices/page_page-3/asset_ce6bd54ca7c641da.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1524,
+        "y": 15,
+        "width": 123,
+        "height": 111
+      },
+      "selectionId": "selection_bb3b4584d0dc4850",
+      "prompt": "模板选择页顶部右侧圆形蓝色筛选按钮，包含白色滑杆图标、厚白边框和轻微下投影。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_f5070e6627e34c30",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "小海豚模板卡片",
+      "path": "assets/slices/page_page-3/asset_f5070e6627e34c30.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 832,
+        "y": 217,
+        "width": 365,
+        "height": 310
+      },
+      "selectionId": "selection_074cffabd1884783",
+      "prompt": "模板选择页的小海豚模板卡片选中态，包含圆角白色卡片、浅蓝水下缩略图、可爱海豚、标题、难度星级和说明文字。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_67dc9df5c1ca41aa",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "黄色难度星",
+      "path": "assets/slices/page_page-3/asset_67dc9df5c1ca41aa.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 663,
+        "y": 430,
+        "width": 43,
+        "height": 46
+      },
+      "selectionId": "selection_6ea31855b37b4b1d",
+      "prompt": "模板卡片内用于表示已达成难度的单个黄色星级图标，带橙色边缘和轻阴影。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_76b9a27523dc4ea5",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "空心难度星",
+      "path": "assets/slices/page_page-3/asset_76b9a27523dc4ea5.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 736,
+        "y": 434,
+        "width": 33,
+        "height": 36
+      },
+      "selectionId": "selection_2748c89d24d94ef9",
+      "prompt": "模板卡片内用于表示未填满难度的单个灰蓝空心星级图标，白色内填充并带轻阴影。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_294185f3b03b47eb",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "加载失败卡片",
+      "path": "assets/slices/page_page-3/asset_294185f3b03b47eb.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1210,
+        "y": 530,
+        "width": 347,
+        "height": 308
+      },
+      "selectionId": "selection_237c47fecf9d4cdd",
+      "prompt": "模板选择页加载失败状态卡片，白色圆角面板内含紫色贝壳插画、加载失败提示和蓝色重试按钮。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_297d77424838408d",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "重试按钮",
+      "path": "assets/slices/page_page-3/asset_297d77424838408d.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1275,
+        "y": 741,
+        "width": 191,
+        "height": 75
+      },
+      "selectionId": "selection_905affd2604e4a04",
+      "prompt": "模板选择页加载失败状态使用的蓝色亮面重试按钮，圆角胶囊形态，白色中文文字居中。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_5f58779077fe4363",
+      "pageId": "page_page-3",
+      "type": "slice",
+      "name": "涂色操作提示条",
+      "path": "assets/slices/page_page-3/asset_5f58779077fe4363.png",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 503,
+        "y": 824,
+        "width": 655,
+        "height": 114
+      },
+      "selectionId": "selection_4560c642828a494f",
+      "prompt": "模板选择页底部首次进入编辑器前的白色圆角提示条，含点按手势图标、橙色撤销箭头、操作说明文字和右侧关闭图标。",
+      "createdAt": "2026-05-07T13:39:21.135Z"
+    },
+    {
+      "id": "asset_a2299903d3aa43b1",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "返回按钮",
+      "path": "assets/slices/page_page-4/asset_a2299903d3aa43b1.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 28,
+        "y": 22,
+        "width": 110,
+        "height": 108
+      },
+      "selectionId": "selection_49a62b0cd1664aba",
+      "prompt": "圆形蓝色返回按钮，带白色描边、左箭头和轻微阴影，用于完成预览页返回或继续编辑入口。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_fe9d709bc7db4884",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "已保存徽章",
+      "path": "assets/slices/page_page-4/asset_fe9d709bc7db4884.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1454,
+        "y": 56,
+        "width": 164,
+        "height": 61
+      },
+      "selectionId": "selection_228444cc36f54e8e",
+      "prompt": "浅绿色圆角状态徽章，包含绿色对勾和“已保存”文字，用于完成预览页顶部保存状态提示。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_dcf3235a1bc044a1",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "作品预览框",
+      "path": "assets/slices/page_page-4/asset_dcf3235a1bc044a1.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 335,
+        "y": 148,
+        "width": 1004,
+        "height": 594
+      },
+      "selectionId": "selection_dad2d095db134cdb",
+      "prompt": "大幅圆角作品预览容器，展示泡泡中的蓝色海豚涂色作品、鱼群和海底装饰，用于完成预览页中央主视觉。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_196a763633e24704",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "入海进度提示",
+      "path": "assets/slices/page_page-4/asset_196a763633e24704.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 662,
+        "y": 619,
+        "width": 319,
+        "height": 91
+      },
+      "selectionId": "selection_3f402876a7054961",
+      "prompt": "蓝色圆角进度提示条，含白色加载圆点和“正在送入海洋”文字，用于送入海洋动画过程状态。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_78f19d0ad3934f69",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "继续涂色按钮",
+      "path": "assets/slices/page_page-4/asset_78f19d0ad3934f69.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 345,
+        "y": 771,
+        "width": 343,
+        "height": 115
+      },
+      "selectionId": "selection_d8063cd4ee484309",
+      "prompt": "白底蓝边的大号“继续涂色”按钮，用于完成预览页底部次要操作。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_65ae53bf3c3e4b74",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "送入海洋按钮",
+      "path": "assets/slices/page_page-4/asset_65ae53bf3c3e4b74.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 719,
+        "y": 769,
+        "width": 543,
+        "height": 124
+      },
+      "selectionId": "selection_b9751d7cd8cf4976",
+      "prompt": "珊瑚橙渐变主按钮，含白色海浪图标和“送入海洋”文字，用于完成预览页底部主操作。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_53ad3b1bba9549db",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "分享按钮",
+      "path": "assets/slices/page_page-4/asset_53ad3b1bba9549db.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1294,
+        "y": 786,
+        "width": 85,
+        "height": 85
+      },
+      "selectionId": "selection_d00870cc1cd34c62",
+      "prompt": "白色圆形分享按钮，含蓝色三点分享图标，用于完成预览页辅助分享入口。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_5aa03fc3b72348eb",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "空间不足弹窗",
+      "path": "assets/slices/page_page-4/asset_5aa03fc3b72348eb.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 43,
+        "y": 478,
+        "width": 290,
+        "height": 229
+      },
+      "selectionId": "selection_d398292063bb429d",
+      "prompt": "空间不足错误弹窗，含关闭按钮、提示文案以及“取消”“去设置”操作，用于保存或入海失败处理。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_02278d8bd45d48c3",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "入海成功卡片",
+      "path": "assets/slices/page_page-4/asset_02278d8bd45d48c3.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1293,
+        "y": 443,
+        "width": 329,
+        "height": 284
+      },
+      "selectionId": "selection_7e67a06230c74084",
+      "prompt": "入海成功提示卡片，含绿色对勾、“已送入海洋”和去海洋世界按钮，用于入海成功状态。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_13d0f08f506b401a",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "成功对勾徽章",
+      "path": "assets/slices/page_page-4/asset_13d0f08f506b401a.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1426,
+        "y": 471,
+        "width": 66,
+        "height": 66
+      },
+      "selectionId": "selection_7b9aaea7c9b248ce",
+      "prompt": "绿色圆形成功对勾徽章，用于入海成功卡片或完成状态提示。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_30ac8ed999684b17",
+      "pageId": "page_page-4",
+      "type": "slice",
+      "name": "去海洋世界按钮",
+      "path": "assets/slices/page_page-4/asset_30ac8ed999684b17.png",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1342,
+        "y": 604,
+        "width": 232,
+        "height": 56
+      },
+      "selectionId": "selection_a08a071b05b94efb",
+      "prompt": "蓝色小号圆角“去海洋世界看看”按钮，用于入海成功卡片的跳转操作。",
+      "createdAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "asset_a47c20e944cb4028",
+      "pageId": "page_page-6",
+      "type": "slice",
+      "name": "主页返回按钮",
+      "path": "assets/slices/page_page-6/asset_a47c20e944cb4028.png",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 17,
+        "y": 19,
+        "width": 136,
+        "height": 123
+      },
+      "selectionId": "selection_2576d973f1274b01",
+      "prompt": "海洋世界页面左上角使用的圆形主页返回按钮，蓝色玻璃质感底面、白色房子图标和浅蓝高光描边，适合作为儿童 Pad 横屏海洋场景的顶部控制入口。",
+      "createdAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "asset_7621b512b17c4028",
+      "pageId": "page_page-6",
+      "type": "slice",
+      "name": "海洋世界标题字",
+      "path": "assets/slices/page_page-6/asset_7621b512b17c4028.png",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 615,
+        "y": 53,
+        "width": 425,
+        "height": 119
+      },
+      "selectionId": "selection_cc40ce9ca4e04c1f",
+      "prompt": "海洋世界页面顶部标题字素材，文字为“海洋世界”，白色圆润字面配深浅蓝描边和轻微投影，用于沉浸式海洋展示页标题。",
+      "createdAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "asset_d7b73897bd3a4f31",
+      "pageId": "page_page-6",
+      "type": "slice",
+      "name": "音量开启按钮",
+      "path": "assets/slices/page_page-6/asset_d7b73897bd3a4f31.png",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1519,
+        "y": 20,
+        "width": 127,
+        "height": 126
+      },
+      "selectionId": "selection_a679e8fb04d74af8",
+      "prompt": "海洋世界页面右上角使用的圆形音量开启按钮，蓝色玻璃质感底面、白色扬声器和声波图标，带浅蓝高光描边，适合顶部控制条声音开关状态。",
+      "createdAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "asset_bb13b47009b940b5",
+      "pageId": "page_page-6",
+      "type": "slice",
+      "name": "作品信息卡底板",
+      "path": "assets/slices/page_page-6/asset_bb13b47009b940b5.png",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1125,
+        "y": 251,
+        "width": 431,
+        "height": 548
+      },
+      "selectionId": "selection_da71ea9b6c704086",
+      "prompt": "海洋世界页面点击作品后弹出的右侧信息卡底板，白蓝半透明圆角面板、青色外发光和顶部海洋缩略图框；不含中间海豚、作品文字和底部按钮，便于后续叠加动态内容。",
+      "createdAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "asset_873843974f4a47d8",
+      "pageId": "page_page-6",
+      "type": "slice",
+      "name": "去预览按钮",
+      "path": "assets/slices/page_page-6/asset_873843974f4a47d8.png",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1182,
+        "y": 667,
+        "width": 318,
+        "height": 89
+      },
+      "selectionId": "selection_a212b1647ae74011",
+      "prompt": "海洋世界作品信息卡底部使用的蓝色圆角主按钮，文字为“去预览”，带白色描边、高光和下沿阴影，用于跳转作品预览的主要操作。",
+      "createdAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "asset_a18e539ba1844201",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "主页返回按钮",
+      "path": "assets/slices/page_page-7/asset_a18e539ba1844201.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 30,
+        "y": 20,
+        "width": 104,
+        "height": 104
+      },
+      "selectionId": "selection_1b450f2afc8d4a51",
+      "prompt": "左上角主页返回入口使用的蓝色圆形按钮，包含白色房子图标、玻璃高光、白色描边和轻微投影，适用于我的作品页顶部导航。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_a2be978373344110",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "页面标题字",
+      "path": "assets/slices/page_page-7/asset_a2be978373344110.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 672,
+        "y": 20,
+        "width": 323,
+        "height": 82
+      },
+      "selectionId": "selection_8adcfd3d0bb94aa4",
+      "prompt": "“我的作品”标题字素材，深蓝字面、白色粗描边、浅蓝外发光和柔和阴影，适用于我的作品页顶部居中标题。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_a6072a1c836f4cc9",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "普通作品空卡片",
+      "path": "assets/slices/page_page-7/asset_a6072a1c836f4cc9.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 116,
+        "y": 196,
+        "width": 338,
+        "height": 278
+      },
+      "selectionId": "selection_147779b538734082",
+      "prompt": "未选中作品卡片空框，白色圆角卡片、浅蓝描边、顶部水纹缩略图占位和底部留白信息区，已移除作品图、名称、时间和状态徽标。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_7cf4ef7f193f49de",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "选中作品空卡片",
+      "path": "assets/slices/page_page-7/asset_7cf4ef7f193f49de.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 458,
+        "y": 187,
+        "width": 374,
+        "height": 293
+      },
+      "selectionId": "selection_7b73b24cb903478d",
+      "prompt": "选中态作品卡片空框，白色圆角卡片、顶部水纹缩略图占位、底部留白信息区与青色发光描边，已移除作品内容、描述和时间。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_1ad4f02e213b4dfb",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "选中勾选圆标",
+      "path": "assets/slices/page_page-7/asset_1ad4f02e213b4dfb.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 747,
+        "y": 207,
+        "width": 68,
+        "height": 68
+      },
+      "selectionId": "selection_64e7a17da8a040c3",
+      "prompt": "作品选中态圆形勾选标记，蓝色渐变圆盘、白色对勾、白色外圈和青色微光，适合叠放在作品卡片右上角。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_c945d99c978547fd",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "删除确认弹窗背景",
+      "path": "assets/slices/page_page-7/asset_c945d99c978547fd.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 960,
+        "y": 486,
+        "width": 394,
+        "height": 189
+      },
+      "selectionId": "selection_8425c414c2a44dfa",
+      "prompt": "删除确认弹窗背景素材，白色半透明圆角面板、柔和阴影、浅蓝底部波纹和气泡装饰，已移除标题、正文和操作按钮内容。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_25b5885d5c564812",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "底部操作面板背景",
+      "path": "assets/slices/page_page-7/asset_25b5885d5c564812.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 45,
+        "y": 713,
+        "width": 1583,
+        "height": 228
+      },
+      "selectionId": "selection_465053fa37564a8e",
+      "prompt": "底部操作面板背景，宽幅白色半透明圆角浮层、顶部拖拽短条、柔和阴影、底部浅蓝海浪与气泡装饰，已移除缩略图、文字、分隔线和按钮。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_b55771bcd01740ef",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "继续涂色按钮",
+      "path": "assets/slices/page_page-7/asset_b55771bcd01740ef.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 666,
+        "y": 766,
+        "width": 235,
+        "height": 91
+      },
+      "selectionId": "selection_51f3a6e0bb2544cd",
+      "prompt": "继续涂色操作按钮，蓝色高光圆角底、白色画笔图标和“继续涂色”文字，带轻微阴影，适用于我的作品页底部操作栏。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_cb81c539eeaa4308",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "去预览按钮",
+      "path": "assets/slices/page_page-7/asset_cb81c539eeaa4308.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 915,
+        "y": 766,
+        "width": 211,
+        "height": 91
+      },
+      "selectionId": "selection_2e059dd4d4364e9d",
+      "prompt": "去预览操作按钮，蓝色高光圆角底、白色眼睛图标和“去预览”文字，带轻微阴影，适用于作品查看入口。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_f8ed36b889414074",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "送入海洋按钮",
+      "path": "assets/slices/page_page-7/asset_f8ed36b889414074.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 1145,
+        "y": 766,
+        "width": 229,
+        "height": 91
+      },
+      "selectionId": "selection_df348daabfd8407e",
+      "prompt": "送入海洋主操作按钮，橙色高光圆角底、白色海浪图标和“送入海洋”文字，带暖色投影，适用于将作品发布到海洋世界。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_4562e08313474162",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "删除描边按钮",
+      "path": "assets/slices/page_page-7/asset_4562e08313474162.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 1396,
+        "y": 766,
+        "width": 192,
+        "height": 90
+      },
+      "selectionId": "selection_d3d9c6883ce040f0",
+      "prompt": "删除操作描边按钮，白底红色圆角描边、红色垃圾桶图标和“删除”文字，带轻微阴影，适用于作品删除入口。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_478491f1ecd44614",
+      "pageId": "page_page-7",
+      "type": "slice",
+      "name": "通用成功提示条",
+      "path": "assets/slices/page_page-7/asset_478491f1ecd44614.png",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 723,
+        "y": 866,
+        "width": 220,
+        "height": 61
+      },
+      "selectionId": "selection_f0d412eed888434f",
+      "prompt": "通用成功 Toast 背景，深灰半透明圆角胶囊、左侧绿色对勾圆标和柔和阴影，右侧已留空用于替换提示文案。",
+      "createdAt": "2026-05-08T03:10:56.010Z"
+    },
+    {
+      "id": "asset_dc3819fe15ec49fe",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "背景音乐开关",
+      "path": "assets/slices/page_page-8/asset_dc3819fe15ec49fe.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1093,
+        "y": 202,
+        "width": 96,
+        "height": 52
+      },
+      "selectionId": "selection_dccffe0a0bfa448e",
+      "prompt": "背景音乐开启状态开关，绿色轨道、白色圆形滑块位于右侧。",
+      "createdAt": "2026-05-08T03:58:01.137Z"
+    },
+    {
+      "id": "asset_1858b30c6deb4540",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "音效开关",
+      "path": "assets/slices/page_page-8/asset_1858b30c6deb4540.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1093,
+        "y": 272,
+        "width": 96,
+        "height": 52
+      },
+      "selectionId": "selection_c982a37afe0341b6",
+      "prompt": "音效开启状态开关，绿色轨道、白色圆形滑块位于右侧。",
+      "createdAt": "2026-05-08T03:58:01.137Z"
+    },
+    {
+      "id": "asset_651e239072604e32",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "确认流程箭头",
+      "path": "assets/slices/page_page-8/asset_651e239072604e32.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1443,
+        "y": 479,
+        "width": 48,
+        "height": 59
+      },
+      "selectionId": "selection_15f6cb01b7074939",
+      "prompt": "家长确认到二次确认流程之间的白色向下箭头，带浅蓝阴影。",
+      "createdAt": "2026-05-08T03:58:01.137Z"
+    },
+    {
+      "id": "asset_188fc29d580841c4",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "主页返回按钮",
+      "path": "assets/slices/page_page-8/asset_188fc29d580841c4.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 30,
+        "y": 18,
+        "width": 110,
+        "height": 110
+      },
+      "selectionId": "selection_45b7fe8e4bae46be",
+      "prompt": "设置与帮助页面顶部左侧的圆形蓝色主页返回按钮，白色房子图标、白色描边和柔和投影，适合儿童 Pad 横屏界面导航返回。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_d408c98487bc41ec",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "设置与帮助标题",
+      "path": "assets/slices/page_page-8/asset_d408c98487bc41ec.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 658,
+        "y": 35,
+        "width": 365,
+        "height": 76
+      },
+      "selectionId": "selection_f0cf154876614c5c",
+      "prompt": "设置与帮助页面主标题文字，蓝色圆润大字搭配白色描边和浅阴影，用于页面顶部标题区。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_94541af5591c4c05",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "声音导航按钮",
+      "path": "assets/slices/page_page-8/asset_94541af5591c4c05.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 157,
+        "width": 288,
+        "height": 108
+      },
+      "selectionId": "selection_325775ae7d9d4ccb",
+      "prompt": "左侧分组导航的选中态声音按钮，蓝色渐变圆角底、白色扬声器图标和白色文字，表示当前停留在声音设置分组。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_e2a4da844039498c",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "数据导航按钮",
+      "path": "assets/slices/page_page-8/asset_e2a4da844039498c.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 280,
+        "width": 288,
+        "height": 109
+      },
+      "selectionId": "selection_b477d6dffc2747e3",
+      "prompt": "左侧分组导航的数据入口按钮，白色圆角卡片、蓝色数据库图标和深蓝文字，用于切换到数据管理分组。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_6d54a6ff4b3c4868",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "帮助导航按钮",
+      "path": "assets/slices/page_page-8/asset_6d54a6ff4b3c4868.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 404,
+        "width": 288,
+        "height": 108
+      },
+      "selectionId": "selection_3555a50ab96f42fd",
+      "prompt": "左侧分组导航的帮助入口按钮，白色圆角卡片、蓝色问号图标和深蓝文字，用于切换基础操作帮助内容。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_2062640e45a34119",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "关于导航按钮",
+      "path": "assets/slices/page_page-8/asset_2062640e45a34119.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 528,
+        "width": 288,
+        "height": 108
+      },
+      "selectionId": "selection_6c48c628a2974254",
+      "prompt": "左侧分组导航的关于入口按钮，白色圆角卡片、蓝色信息图标和深蓝文字，用于切换关于说明内容。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_5e152e3f572e4b1c",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "隐私说明导航按钮",
+      "path": "assets/slices/page_page-8/asset_5e152e3f572e4b1c.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 651,
+        "width": 288,
+        "height": 108
+      },
+      "selectionId": "selection_29320305b6c64030",
+      "prompt": "左侧分组导航的隐私说明入口按钮，白色圆角卡片、蓝色盾牌锁图标和深蓝文字，用于进入儿童友好的隐私说明。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_70b32e31228640b7",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "选模板步骤卡",
+      "path": "assets/slices/page_page-8/asset_70b32e31228640b7.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 390,
+        "y": 462,
+        "width": 198,
+        "height": 222
+      },
+      "selectionId": "selection_bbcfa0356985463e",
+      "prompt": "基础操作帮助中的第一步卡片，包含数字 1、选模板标题、小丑鱼模板缩略图和手指点按提示，说明选择喜欢的海洋伙伴模板。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_e9a00c1b8e784edb",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "点按涂色步骤卡",
+      "path": "assets/slices/page_page-8/asset_e9a00c1b8e784edb.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 604,
+        "y": 462,
+        "width": 200,
+        "height": 222
+      },
+      "selectionId": "selection_448e3fd750644cd7",
+      "prompt": "基础操作帮助中的第二步卡片，包含数字 2、点按涂色标题、海豚与手指点按图标，说明点按封闭区域即可填色。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_95502f4241a14fab",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "撤销步骤卡",
+      "path": "assets/slices/page_page-8/asset_95502f4241a14fab.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 820,
+        "y": 462,
+        "width": 191,
+        "height": 222
+      },
+      "selectionId": "selection_03267911bb434411",
+      "prompt": "基础操作帮助中的第三步卡片，包含数字 3、撤销标题和蓝色回退箭头，说明可使用撤销或重做修改颜色。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_7d2cd8c18bc8410f",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "完成入海步骤卡",
+      "path": "assets/slices/page_page-8/asset_7d2cd8c18bc8410f.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1025,
+        "y": 462,
+        "width": 192,
+        "height": 222
+      },
+      "selectionId": "selection_4cdb72f685684369",
+      "prompt": "基础操作帮助中的第四步卡片，包含数字 4、完成入海标题和鱼缸海洋插画，说明完成后将作品送入海洋。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_7d94e331ee3c49fd",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "无需登录隐私卡",
+      "path": "assets/slices/page_page-8/asset_7d94e331ee3c49fd.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 399,
+        "y": 753,
+        "width": 112,
+        "height": 136
+      },
+      "selectionId": "selection_70a15dce629e48fd",
+      "prompt": "隐私说明区域的小卡片，白色圆角底、绿色用户图标和无需登录文字，表达应用无需账号登录。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_886a98c22c55418e",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "本地保存隐私卡",
+      "path": "assets/slices/page_page-8/asset_886a98c22c55418e.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 528,
+        "y": 753,
+        "width": 125,
+        "height": 136
+      },
+      "selectionId": "selection_3b798e09b3f54cd7",
+      "prompt": "隐私说明区域的小卡片，白色圆角底、黄色文件夹图标和本地保存文字，表达作品数据保存在本地。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_49692741f7454897",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "儿童友好隐私卡",
+      "path": "assets/slices/page_page-8/asset_49692741f7454897.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 668,
+        "y": 753,
+        "width": 114,
+        "height": 136
+      },
+      "selectionId": "selection_0e4e3bf32a9b4273",
+      "prompt": "隐私说明区域的小卡片，白色圆角底、粉红爱心图标和儿童友好文字，强调适合儿童使用。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_28f0af5470de4a0b",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "清理缓存按钮",
+      "path": "assets/slices/page_page-8/asset_28f0af5470de4a0b.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 827,
+        "y": 827,
+        "width": 183,
+        "height": 64
+      },
+      "selectionId": "selection_915574603b464534",
+      "prompt": "数据管理区域的蓝色清理缓存按钮，带白色垃圾桶图标和白色文字，用于触发缓存清理流程。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_911e2460bc2b4a0d",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "重置应用按钮",
+      "path": "assets/slices/page_page-8/asset_911e2460bc2b4a0d.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1023,
+        "y": 827,
+        "width": 188,
+        "height": 64
+      },
+      "selectionId": "selection_d68fd261152e45ad",
+      "prompt": "数据管理区域的红色警示重置应用按钮，带白色警告图标和文字，用于触发高风险重置确认流程。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_b90648fac7f54fb6",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "家长确认弹窗",
+      "path": "assets/slices/page_page-8/asset_b90648fac7f54fb6.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1273,
+        "y": 146,
+        "width": 377,
+        "height": 334
+      },
+      "selectionId": "selection_7bb7aac9c9b94a87",
+      "prompt": "高风险操作前的家长确认弹窗主体，白色圆角面板、橙色锁图标、家长确认标题、关闭按钮、算术题和输入框，不包含继续按钮。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_f29b1fabf33646df",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "继续按钮",
+      "path": "assets/slices/page_page-8/asset_f29b1fabf33646df.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1319,
+        "y": 379,
+        "width": 286,
+        "height": 70
+      },
+      "selectionId": "selection_b18d466cfcea4111",
+      "prompt": "家长确认弹窗中的蓝色继续按钮，圆角渐变底、白色文字和投影，用于通过算术门禁后继续操作。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_aab46243e6e848b9",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "二次确认弹窗",
+      "path": "assets/slices/page_page-8/asset_aab46243e6e848b9.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1273,
+        "y": 541,
+        "width": 377,
+        "height": 254
+      },
+      "selectionId": "selection_9d9a86978aba4090",
+      "prompt": "高风险操作的二次确认弹窗主体，白色圆角面板、橙色警示图标、二次确认标题、关闭按钮和影响本地作品或缓存的提示，不包含底部取消和确认按钮。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_30daa121d4104dae",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "取消按钮",
+      "path": "assets/slices/page_page-8/asset_30daa121d4104dae.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1293,
+        "y": 699,
+        "width": 153,
+        "height": 67
+      },
+      "selectionId": "selection_0e1f242de6c1493a",
+      "prompt": "二次确认弹窗底部的取消按钮，白色圆角底、蓝色文字和轻微投影，用于放弃高风险操作。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_e8b6ef2b99fe45c3",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "确认按钮",
+      "path": "assets/slices/page_page-8/asset_e8b6ef2b99fe45c3.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1461,
+        "y": 699,
+        "width": 154,
+        "height": 67
+      },
+      "selectionId": "selection_323241ee47d54075",
+      "prompt": "二次确认弹窗底部的红色确认按钮，圆角渐变底、白色文字和投影，用于最终确认高风险操作。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_f40165cf83fa4da4",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "背景音乐图标",
+      "path": "assets/slices/page_page-8/asset_f40165cf83fa4da4.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 403,
+        "y": 201,
+        "width": 61,
+        "height": 53
+      },
+      "selectionId": "selection_cc853f12a3b74abc",
+      "prompt": "声音设置列表中的背景音乐图标，青绿色圆形底和白色音符，适用于背景音乐开关行。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_da31384346ee4c29",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "音效图标",
+      "path": "assets/slices/page_page-8/asset_da31384346ee4c29.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 409,
+        "y": 270,
+        "width": 50,
+        "height": 54
+      },
+      "selectionId": "selection_af850640d1cf4371",
+      "prompt": "声音设置列表中的音效图标，橙色圆形底和白色音符，适用于音效开关行。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    },
+    {
+      "id": "asset_d69eab28d7cd4312",
+      "pageId": "page_page-8",
+      "type": "slice",
+      "name": "音量图标",
+      "path": "assets/slices/page_page-8/asset_d69eab28d7cd4312.png",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 401,
+        "y": 341,
+        "width": 58,
+        "height": 52
+      },
+      "selectionId": "selection_5818e30bd75b496f",
+      "prompt": "声音设置列表中的音量图标，紫色圆形底和白色扬声器，适用于音量滑杆行。",
+      "createdAt": "2026-05-08T06:35:08.885Z"
+    }
+  ],
+  "sliceSelections": [
+    {
+      "id": "selection_a8a84bfb99b2412c",
+      "pageId": "page_page-2",
+      "name": "开始涂色按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 461,
+        "y": 161,
+        "width": 380,
+        "height": 334
+      },
+      "prompt": "启动与主页使用的橙色圆角主按钮素材，包含蜡笔图标与“开始涂色”标题，已去除加载中状态并处理为透明背景 PNG。",
+      "status": "generated",
+      "assetId": "asset_90b55477cbda4715",
+      "createdAt": "2026-05-07T10:06:13.348Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_c73474d82fd54485",
+      "pageId": "page_page-2",
+      "name": "引导箭头",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 347,
+        "y": 269,
+        "width": 142,
+        "height": 112
+      },
+      "prompt": "首次引导提示使用的白色弧形箭头素材，用于指向开始涂色入口，带轻微阴影与透明背景。",
+      "status": "generated",
+      "assetId": "asset_d55a184f5d09475b",
+      "createdAt": "2026-05-07T10:06:15.843Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_4cfd00f5218646a2",
+      "pageId": "page_page-2",
+      "name": "我的作品按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 852,
+        "y": 170,
+        "width": 392,
+        "height": 323
+      },
+      "prompt": "启动与主页使用的蓝色圆角功能卡片，包含相册图标与“我的作品”标题，适合作为作品库入口按钮。",
+      "status": "generated",
+      "assetId": "asset_938ae150586c4a4c",
+      "createdAt": "2026-05-07T10:06:19.387Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_ebe8f714923f48ce",
+      "pageId": "page_page-2",
+      "name": "应用标题标识",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 23,
+        "y": 12,
+        "width": 365,
+        "height": 139
+      },
+      "prompt": "启动与主页顶部品牌标识素材，包含鲸鱼应用图标与“海洋涂鸦”标题字，透明背景可叠加在海洋背景上。",
+      "status": "generated",
+      "assetId": "asset_ed5d544bc4d04287",
+      "createdAt": "2026-05-07T10:06:32.556Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_f96d49d3d07d4b6e",
+      "pageId": "page_page-2",
+      "name": "声音按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1268,
+        "y": 34,
+        "width": 145,
+        "height": 98
+      },
+      "prompt": "主页右上角圆形声音控制按钮素材，蓝色玻璃质感底座与白色扬声器图标，无文字。",
+      "status": "generated",
+      "assetId": "asset_53fab89d721a4608",
+      "createdAt": "2026-05-07T10:06:35.259Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_7b13118d4b1f42be",
+      "pageId": "page_page-2",
+      "name": "设置按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1416,
+        "y": 27,
+        "width": 107,
+        "height": 113
+      },
+      "prompt": "主页右上角圆形设置按钮素材，蓝色玻璃质感底座与白色齿轮图标，无文字，适合作为设置入口。",
+      "status": "generated",
+      "assetId": "asset_07c9b06d6da94066",
+      "createdAt": "2026-05-07T10:06:36.953Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_aed9d581e22940ac",
+      "pageId": "page_page-2",
+      "name": "帮助按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1536,
+        "y": 31,
+        "width": 102,
+        "height": 109
+      },
+      "prompt": "主页右上角圆形帮助按钮素材，蓝色玻璃质感底座与白色问号图标，无说明文字。",
+      "status": "generated",
+      "assetId": "asset_abc23f7eb8364c3d",
+      "createdAt": "2026-05-07T10:06:38.659Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_a12902cc57db4d50",
+      "pageId": "page_page-2",
+      "name": "退出确认弹窗",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1184,
+        "y": 507,
+        "width": 444,
+        "height": 354
+      },
+      "prompt": "退出确认弹窗背景素材，白色圆角面板、底部海浪装饰、海草与气泡，中心区域留空便于叠加标题和按钮。",
+      "status": "generated",
+      "assetId": "asset_9d2fbd06319349b4",
+      "createdAt": "2026-05-07T10:06:43.779Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_d60f1668456447d1",
+      "pageId": "page_page-2",
+      "name": "海洋世界按钮",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 459,
+        "y": 513,
+        "width": 367,
+        "height": 290
+      },
+      "prompt": "启动与主页使用的绿色圆角功能卡片，包含泡泡小鱼图标与“海洋世界”标题，适合作为海洋世界入口按钮。",
+      "status": "generated",
+      "assetId": "asset_78ee94c0298547b9",
+      "createdAt": "2026-05-07T10:06:57.090Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_d9e4350510774be6",
+      "pageId": "page_page-2",
+      "name": "蓝色确认按钮背景",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1233,
+        "y": 657,
+        "width": 151,
+        "height": 85
+      },
+      "prompt": "退出确认弹窗中的蓝色圆角按钮背景素材，无文字，适合叠加“留下”等确认类按钮文案。",
+      "status": "generated",
+      "assetId": "asset_df94f2e410b34c35",
+      "createdAt": "2026-05-07T10:07:01.266Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_46ce8756a58c4c22",
+      "pageId": "page_page-2",
+      "name": "橙色退出按钮背景",
+      "sourceImagePath": "assets/pages/page_page-2/versions/v001.png",
+      "selection": {
+        "x": 1402,
+        "y": 649,
+        "width": 170,
+        "height": 96
+      },
+      "prompt": "退出确认弹窗中的橙红色圆角按钮背景素材，无文字，适合叠加“退出”等离开或警示类按钮文案。",
+      "status": "generated",
+      "assetId": "asset_eb4d04ea82894c70",
+      "createdAt": "2026-05-07T10:07:17.404Z",
+      "updatedAt": "2026-05-07T13:30:19.877Z"
+    },
+    {
+      "id": "selection_49a62b0cd1664aba",
+      "pageId": "page_page-4",
+      "name": "返回按钮",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 28,
+        "y": 22,
+        "width": 110,
+        "height": 108
+      },
+      "prompt": "圆形蓝色返回按钮，带白色描边、左箭头和轻微阴影，用于完成预览页返回或继续编辑入口。",
+      "status": "generated",
+      "assetId": "asset_a2299903d3aa43b1",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_228444cc36f54e8e",
+      "pageId": "page_page-4",
+      "name": "已保存徽章",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1454,
+        "y": 56,
+        "width": 164,
+        "height": 61
+      },
+      "prompt": "浅绿色圆角状态徽章，包含绿色对勾和“已保存”文字，用于完成预览页顶部保存状态提示。",
+      "status": "generated",
+      "assetId": "asset_fe9d709bc7db4884",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_dad2d095db134cdb",
+      "pageId": "page_page-4",
+      "name": "作品预览框",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 335,
+        "y": 148,
+        "width": 1004,
+        "height": 594
+      },
+      "prompt": "大幅圆角作品预览容器，展示泡泡中的蓝色海豚涂色作品、鱼群和海底装饰，用于完成预览页中央主视觉。",
+      "status": "generated",
+      "assetId": "asset_dcf3235a1bc044a1",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_3f402876a7054961",
+      "pageId": "page_page-4",
+      "name": "入海进度提示",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 662,
+        "y": 619,
+        "width": 319,
+        "height": 91
+      },
+      "prompt": "蓝色圆角进度提示条，含白色加载圆点和“正在送入海洋”文字，用于送入海洋动画过程状态。",
+      "status": "generated",
+      "assetId": "asset_196a763633e24704",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_d8063cd4ee484309",
+      "pageId": "page_page-4",
+      "name": "继续涂色按钮",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 345,
+        "y": 771,
+        "width": 343,
+        "height": 115
+      },
+      "prompt": "白底蓝边的大号“继续涂色”按钮，用于完成预览页底部次要操作。",
+      "status": "generated",
+      "assetId": "asset_78f19d0ad3934f69",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_b9751d7cd8cf4976",
+      "pageId": "page_page-4",
+      "name": "送入海洋按钮",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 719,
+        "y": 769,
+        "width": 543,
+        "height": 124
+      },
+      "prompt": "珊瑚橙渐变主按钮，含白色海浪图标和“送入海洋”文字，用于完成预览页底部主操作。",
+      "status": "generated",
+      "assetId": "asset_65ae53bf3c3e4b74",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_d00870cc1cd34c62",
+      "pageId": "page_page-4",
+      "name": "分享按钮",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1294,
+        "y": 786,
+        "width": 85,
+        "height": 85
+      },
+      "prompt": "白色圆形分享按钮，含蓝色三点分享图标，用于完成预览页辅助分享入口。",
+      "status": "generated",
+      "assetId": "asset_53ad3b1bba9549db",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_d398292063bb429d",
+      "pageId": "page_page-4",
+      "name": "空间不足弹窗",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 43,
+        "y": 478,
+        "width": 290,
+        "height": 229
+      },
+      "prompt": "空间不足错误弹窗，含关闭按钮、提示文案以及“取消”“去设置”操作，用于保存或入海失败处理。",
+      "status": "generated",
+      "assetId": "asset_5aa03fc3b72348eb",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_7e67a06230c74084",
+      "pageId": "page_page-4",
+      "name": "入海成功卡片",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1293,
+        "y": 443,
+        "width": 329,
+        "height": 284
+      },
+      "prompt": "入海成功提示卡片，含绿色对勾、“已送入海洋”和去海洋世界按钮，用于入海成功状态。",
+      "status": "generated",
+      "assetId": "asset_02278d8bd45d48c3",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_7b9aaea7c9b248ce",
+      "pageId": "page_page-4",
+      "name": "成功对勾徽章",
+      "sourceImagePath": "assets/pages/page_page-4/versions/v001.png",
+      "selection": {
+        "x": 1426,
+        "y": 471,
+        "width": 66,
+        "height": 66
+      },
+      "prompt": "绿色圆形成功对勾徽章，用于入海成功卡片或完成状态提示。",
+      "status": "generated",
+      "assetId": "asset_13d0f08f506b401a",
+      "createdAt": "2026-05-08T00:55:48.573Z",
+      "updatedAt": "2026-05-08T00:56:45.430Z"
+    },
+    {
+      "id": "selection_57919f1aa8024e1d",
+      "pageId": "page_page-3",
+      "name": "主页返回按钮",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 16,
+        "y": 10,
+        "width": 128,
+        "height": 123
+      },
+      "prompt": "模板选择页顶部左侧使用的圆形蓝色主页返回按钮，白色房子图标、厚白描边和轻阴影，适合叠加在浅海背景上。",
+      "status": "generated",
+      "assetId": "asset_6d1189840142493b",
+      "createdAt": "2026-05-07T13:38:22.708Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_b6f267437ec94992",
+      "pageId": "page_page-3",
+      "name": "推荐分类选中标签",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 134,
+        "y": 123,
+        "width": 174,
+        "height": 90
+      },
+      "prompt": "模板选择页分类栏的推荐选中态胶囊标签，橙色高亮、白色描边，并带右上角黄色星标装饰。",
+      "status": "generated",
+      "assetId": "asset_9bad61b099914b6a",
+      "createdAt": "2026-05-07T13:38:29.226Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_bb3b4584d0dc4850",
+      "pageId": "page_page-3",
+      "name": "筛选按钮",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1524,
+        "y": 15,
+        "width": 123,
+        "height": 111
+      },
+      "prompt": "模板选择页顶部右侧圆形蓝色筛选按钮，包含白色滑杆图标、厚白边框和轻微下投影。",
+      "status": "generated",
+      "assetId": "asset_ce6bd54ca7c641da",
+      "createdAt": "2026-05-07T13:38:40.026Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_6ea31855b37b4b1d",
+      "pageId": "page_page-3",
+      "name": "黄色难度星",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 663,
+        "y": 430,
+        "width": 43,
+        "height": 46
+      },
+      "prompt": "模板卡片内用于表示已达成难度的单个黄色星级图标，带橙色边缘和轻阴影。",
+      "status": "generated",
+      "assetId": "asset_67dc9df5c1ca41aa",
+      "createdAt": "2026-05-07T13:38:53.388Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_2748c89d24d94ef9",
+      "pageId": "page_page-3",
+      "name": "空心难度星",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 736,
+        "y": 434,
+        "width": 33,
+        "height": 36
+      },
+      "prompt": "模板卡片内用于表示未填满难度的单个灰蓝空心星级图标，白色内填充并带轻阴影。",
+      "status": "generated",
+      "assetId": "asset_76b9a27523dc4ea5",
+      "createdAt": "2026-05-07T13:38:56.091Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_237c47fecf9d4cdd",
+      "pageId": "page_page-3",
+      "name": "加载失败卡片",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1210,
+        "y": 530,
+        "width": 347,
+        "height": 308
+      },
+      "prompt": "模板选择页加载失败状态卡片，白色圆角面板内含紫色贝壳插画、加载失败提示和蓝色重试按钮。",
+      "status": "generated",
+      "assetId": "asset_294185f3b03b47eb",
+      "createdAt": "2026-05-07T13:39:03.547Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_905affd2604e4a04",
+      "pageId": "page_page-3",
+      "name": "重试按钮",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1275,
+        "y": 741,
+        "width": 191,
+        "height": 75
+      },
+      "prompt": "模板选择页加载失败状态使用的蓝色亮面重试按钮，圆角胶囊形态，白色中文文字居中。",
+      "status": "generated",
+      "assetId": "asset_297d77424838408d",
+      "createdAt": "2026-05-07T13:39:06.372Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_4560c642828a494f",
+      "pageId": "page_page-3",
+      "name": "涂色操作提示条",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 503,
+        "y": 824,
+        "width": 655,
+        "height": 114
+      },
+      "prompt": "模板选择页底部首次进入编辑器前的白色圆角提示条，含点按手势图标、橙色撤销箭头、操作说明文字和右侧关闭图标。",
+      "status": "generated",
+      "assetId": "asset_5f58779077fe4363",
+      "createdAt": "2026-05-07T13:39:16.107Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_30204379882e4769",
+      "pageId": "page_page-3",
+      "name": "筛选按钮",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1524,
+        "y": 15,
+        "width": 123,
+        "height": 111
+      },
+      "prompt": "顶部右侧圆形蓝色筛选按钮，包含白色滑杆图标、厚白边框和轻微下投影，适合作为筛选入口素材。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_ec733a12183645fe",
+      "pageId": "page_page-3",
+      "name": "推荐分类选中标签",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 134,
+        "y": 123,
+        "width": 174,
+        "height": 90
+      },
+      "prompt": "分类栏当前选中的橙色胶囊标签，带白色描边、阴影和右上角黄色星标装饰。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_279e842545da47d8",
+      "pageId": "page_page-3",
+      "name": "模板骨架屏卡片",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 849,
+        "y": 533,
+        "width": 336,
+        "height": 298
+      },
+      "prompt": "蓝灰色加载骨架屏模板卡片，包含圆角白色面板、图片占位条和文本占位条，用于滚动加载状态。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_1dc2cc03ea1c4cdd",
+      "pageId": "page_page-3",
+      "name": "重试按钮",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 1275,
+        "y": 741,
+        "width": 191,
+        "height": 75
+      },
+      "prompt": "加载失败状态中的蓝色亮面重试按钮，圆角胶囊形态，白色文字居中，需保留按钮阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_dad5c358d16a49a8",
+      "pageId": "page_page-3",
+      "name": "涂色操作提示条",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 503,
+        "y": 824,
+        "width": 655,
+        "height": 114
+      },
+      "prompt": "底部首次进入编辑器前的白色圆角提示条，包含点按手势图标、橙色撤销箭头、说明文字、右侧关闭图标和顶部小三角指示。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_e933fe7cb7f64689",
+      "pageId": "page_page-3",
+      "name": "黄色难度星",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 663,
+        "y": 430,
+        "width": 43,
+        "height": 46
+      },
+      "prompt": "模板卡片内表示已达成难度的单个黄色星级图标，带橙色边缘和轻阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_b19a7a5333f84804",
+      "pageId": "page_page-3",
+      "name": "空心难度星",
+      "sourceImagePath": "assets/pages/page_page-3/versions/v001.png",
+      "selection": {
+        "x": 736,
+        "y": 434,
+        "width": 33,
+        "height": 36
+      },
+      "prompt": "模板卡片内表示未填满难度的单个灰蓝空心星级图标，白色内填充并带轻阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:55:52.471Z",
+      "updatedAt": "2026-05-08T01:11:38.771Z"
+    },
+    {
+      "id": "selection_2576d973f1274b01",
+      "pageId": "page_page-6",
+      "name": "主页返回按钮",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 17,
+        "y": 19,
+        "width": 136,
+        "height": 123
+      },
+      "prompt": "海洋世界页面左上角使用的圆形主页返回按钮，蓝色玻璃质感底面、白色房子图标和浅蓝高光描边，适合作为儿童 Pad 横屏海洋场景的顶部控制入口。",
+      "status": "generated",
+      "assetId": "asset_a47c20e944cb4028",
+      "createdAt": "2026-05-08T02:37:16.265Z",
+      "updatedAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "selection_cc40ce9ca4e04c1f",
+      "pageId": "page_page-6",
+      "name": "海洋世界标题字",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 615,
+        "y": 53,
+        "width": 425,
+        "height": 119
+      },
+      "prompt": "海洋世界页面顶部标题字素材，文字为“海洋世界”，白色圆润字面配深浅蓝描边和轻微投影，用于沉浸式海洋展示页标题。",
+      "status": "generated",
+      "assetId": "asset_7621b512b17c4028",
+      "createdAt": "2026-05-08T02:37:18.361Z",
+      "updatedAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "selection_a679e8fb04d74af8",
+      "pageId": "page_page-6",
+      "name": "音量开启按钮",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1519,
+        "y": 20,
+        "width": 127,
+        "height": 126
+      },
+      "prompt": "海洋世界页面右上角使用的圆形音量开启按钮，蓝色玻璃质感底面、白色扬声器和声波图标，带浅蓝高光描边，适合顶部控制条声音开关状态。",
+      "status": "generated",
+      "assetId": "asset_d7b73897bd3a4f31",
+      "createdAt": "2026-05-08T02:37:20.424Z",
+      "updatedAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "selection_da71ea9b6c704086",
+      "pageId": "page_page-6",
+      "name": "作品信息卡底板",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1125,
+        "y": 251,
+        "width": 431,
+        "height": 548
+      },
+      "prompt": "海洋世界页面点击作品后弹出的右侧信息卡底板，白蓝半透明圆角面板、青色外发光和顶部海洋缩略图框；不含中间海豚、作品文字和底部按钮，便于后续叠加动态内容。",
+      "status": "generated",
+      "assetId": "asset_bb13b47009b940b5",
+      "createdAt": "2026-05-08T02:37:24.903Z",
+      "updatedAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "selection_a212b1647ae74011",
+      "pageId": "page_page-6",
+      "name": "去预览按钮",
+      "sourceImagePath": "assets/pages/page_page-6/versions/v003.png",
+      "selection": {
+        "x": 1182,
+        "y": 667,
+        "width": 318,
+        "height": 89
+      },
+      "prompt": "海洋世界作品信息卡底部使用的蓝色圆角主按钮，文字为“去预览”，带白色描边、高光和下沿阴影，用于跳转作品预览的主要操作。",
+      "status": "generated",
+      "assetId": "asset_873843974f4a47d8",
+      "createdAt": "2026-05-08T02:37:27.968Z",
+      "updatedAt": "2026-05-08T02:38:02.970Z"
+    },
+    {
+      "id": "selection_a5901deacae94168",
+      "pageId": "page_page-3_2",
+      "name": "返回按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 19,
+        "y": 20,
+        "width": 111,
+        "height": 110
+      },
+      "prompt": "左上角蓝色圆形返回图标按钮，包含白色左箭头、外圈高光和投影，边界需保留完整圆形描边。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_6c83c135f02a4084",
+      "pageId": "page_page-3_2",
+      "name": "页面标题标识",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 696,
+        "y": 43,
+        "width": 285,
+        "height": 64
+      },
+      "prompt": "顶部居中的“小海豚涂色”标题字，蓝白描边卡通字体，保留文字阴影和外描边。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_8eefef96ce344b09",
+      "pageId": "page_page-3_2",
+      "name": "自动保存状态",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 1170,
+        "y": 56,
+        "width": 166,
+        "height": 51
+      },
+      "prompt": "浅绿色圆角胶囊状态提示，包含勾选图标与“已自动保存”文字，保留柔和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_b9308c5823f043ac",
+      "pageId": "page_page-3_2",
+      "name": "保存按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 1362,
+        "y": 20,
+        "width": 111,
+        "height": 112
+      },
+      "prompt": "右上角蓝色圆形保存按钮，包含软盘图标与保存文字，保留外圈高光、描边和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_d4527bbbd223420b",
+      "pageId": "page_page-3_2",
+      "name": "完成按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 1517,
+        "y": 20,
+        "width": 111,
+        "height": 112
+      },
+      "prompt": "右上角蓝色圆形完成按钮，包含白色对勾图标与完成文字，保留外圈高光、描边和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_c965046a9a514169",
+      "pageId": "page_page-3_2",
+      "name": "左侧工具栏底板",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 78,
+        "y": 158,
+        "width": 146,
+        "height": 579
+      },
+      "prompt": "左侧白色竖向圆角工具面板底板，带轻阴影和圆角边界，可作为工具按钮容器复用。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_09daf59c03c140b6",
+      "pageId": "page_page-3_2",
+      "name": "撤销按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 95,
+        "y": 181,
+        "width": 109,
+        "height": 111
+      },
+      "prompt": "左侧工具栏顶部启用态蓝色撤销按钮，包含回退箭头图标与文字，保留按钮阴影和圆角。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_cbc9063188f84f12",
+      "pageId": "page_page-3_2",
+      "name": "重做禁用按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 95,
+        "y": 327,
+        "width": 109,
+        "height": 111
+      },
+      "prompt": "左侧工具栏灰色禁用态重做按钮，包含浅灰箭头与文字，保留禁用态阴影和圆角。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_71027cc35cfa45e3",
+      "pageId": "page_page-3_2",
+      "name": "橡皮工具按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 95,
+        "y": 466,
+        "width": 109,
+        "height": 111
+      },
+      "prompt": "左侧工具栏蓝色橡皮按钮，包含橡皮图标与文字，保留按钮边缘高光和投影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_4df772e2b8ea40de",
+      "pageId": "page_page-3_2",
+      "name": "清空按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 95,
+        "y": 605,
+        "width": 109,
+        "height": 111
+      },
+      "prompt": "左侧工具栏红色清空按钮，包含垃圾桶图标与文字，用于危险操作入口，保留红色渐变、描边和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_238fcb42ded64be2",
+      "pageId": "page_page-3_2",
+      "name": "底部调色盘面板",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 145,
+        "y": 752,
+        "width": 1399,
+        "height": 150
+      },
+      "prompt": "底部白色横向圆角调色与画笔控制面板，包含整体容器阴影、圆角和分隔线。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_60f6c1fcc619461b",
+      "pageId": "page_page-3_2",
+      "name": "选中蓝色颜色按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 378,
+        "y": 758,
+        "width": 139,
+        "height": 139
+      },
+      "prompt": "底部调色盘当前选中的蓝色大圆形色块，包含外圈蓝色选中环、高光缺口和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_eae51d8a6e7243f6",
+      "pageId": "page_page-3_2",
+      "name": "底部橡皮按钮",
+      "sourceImagePath": "assets/pages/page_page-3_2/versions/v002.png",
+      "selection": {
+        "x": 1419,
+        "y": 786,
+        "width": 94,
+        "height": 96
+      },
+      "prompt": "底部右侧蓝色橡皮模式按钮，包含橡皮图标与文字，保留圆角、渐变高光和阴影。",
+      "status": "pending",
+      "assetId": null,
+      "createdAt": "2026-05-08T00:56:10.352Z",
+      "updatedAt": "2026-05-08T02:38:23.397Z"
+    },
+    {
+      "id": "selection_45b7fe8e4bae46be",
+      "pageId": "page_page-8",
+      "name": "主页返回按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 30,
+        "y": 18,
+        "width": 110,
+        "height": 110
+      },
+      "prompt": "设置与帮助页面顶部左侧的圆形蓝色主页返回按钮，白色房子图标、白色描边和柔和投影，适合儿童 Pad 横屏界面导航返回。",
+      "status": "generated",
+      "assetId": "asset_188fc29d580841c4",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_f0cf154876614c5c",
+      "pageId": "page_page-8",
+      "name": "设置与帮助标题",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 658,
+        "y": 35,
+        "width": 365,
+        "height": 76
+      },
+      "prompt": "设置与帮助页面主标题文字，蓝色圆润大字搭配白色描边和浅阴影，用于页面顶部标题区。",
+      "status": "generated",
+      "assetId": "asset_d408c98487bc41ec",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_325775ae7d9d4ccb",
+      "pageId": "page_page-8",
+      "name": "声音导航按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 157,
+        "width": 288,
+        "height": 108
+      },
+      "prompt": "左侧分组导航的选中态声音按钮，蓝色渐变圆角底、白色扬声器图标和白色文字，表示当前停留在声音设置分组。",
+      "status": "generated",
+      "assetId": "asset_94541af5591c4c05",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_b477d6dffc2747e3",
+      "pageId": "page_page-8",
+      "name": "数据导航按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 280,
+        "width": 288,
+        "height": 109
+      },
+      "prompt": "左侧分组导航的数据入口按钮，白色圆角卡片、蓝色数据库图标和深蓝文字，用于切换到数据管理分组。",
+      "status": "generated",
+      "assetId": "asset_e2a4da844039498c",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_3555a50ab96f42fd",
+      "pageId": "page_page-8",
+      "name": "帮助导航按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 404,
+        "width": 288,
+        "height": 108
+      },
+      "prompt": "左侧分组导航的帮助入口按钮，白色圆角卡片、蓝色问号图标和深蓝文字，用于切换基础操作帮助内容。",
+      "status": "generated",
+      "assetId": "asset_6d54a6ff4b3c4868",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_6c48c628a2974254",
+      "pageId": "page_page-8",
+      "name": "关于导航按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 528,
+        "width": 288,
+        "height": 108
+      },
+      "prompt": "左侧分组导航的关于入口按钮，白色圆角卡片、蓝色信息图标和深蓝文字，用于切换关于说明内容。",
+      "status": "generated",
+      "assetId": "asset_2062640e45a34119",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_29320305b6c64030",
+      "pageId": "page_page-8",
+      "name": "隐私说明导航按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 47,
+        "y": 651,
+        "width": 288,
+        "height": 108
+      },
+      "prompt": "左侧分组导航的隐私说明入口按钮，白色圆角卡片、蓝色盾牌锁图标和深蓝文字，用于进入儿童友好的隐私说明。",
+      "status": "generated",
+      "assetId": "asset_5e152e3f572e4b1c",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_bbcfa0356985463e",
+      "pageId": "page_page-8",
+      "name": "选模板步骤卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 390,
+        "y": 462,
+        "width": 198,
+        "height": 222
+      },
+      "prompt": "基础操作帮助中的第一步卡片，包含数字 1、选模板标题、小丑鱼模板缩略图和手指点按提示，说明选择喜欢的海洋伙伴模板。",
+      "status": "generated",
+      "assetId": "asset_70b32e31228640b7",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_448e3fd750644cd7",
+      "pageId": "page_page-8",
+      "name": "点按涂色步骤卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 604,
+        "y": 462,
+        "width": 200,
+        "height": 222
+      },
+      "prompt": "基础操作帮助中的第二步卡片，包含数字 2、点按涂色标题、海豚与手指点按图标，说明点按封闭区域即可填色。",
+      "status": "generated",
+      "assetId": "asset_e9a00c1b8e784edb",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_03267911bb434411",
+      "pageId": "page_page-8",
+      "name": "撤销步骤卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 820,
+        "y": 462,
+        "width": 191,
+        "height": 222
+      },
+      "prompt": "基础操作帮助中的第三步卡片，包含数字 3、撤销标题和蓝色回退箭头，说明可使用撤销或重做修改颜色。",
+      "status": "generated",
+      "assetId": "asset_95502f4241a14fab",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_4cdb72f685684369",
+      "pageId": "page_page-8",
+      "name": "完成入海步骤卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1025,
+        "y": 462,
+        "width": 192,
+        "height": 222
+      },
+      "prompt": "基础操作帮助中的第四步卡片，包含数字 4、完成入海标题和鱼缸海洋插画，说明完成后将作品送入海洋。",
+      "status": "generated",
+      "assetId": "asset_7d2cd8c18bc8410f",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_70a15dce629e48fd",
+      "pageId": "page_page-8",
+      "name": "无需登录隐私卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 399,
+        "y": 753,
+        "width": 112,
+        "height": 136
+      },
+      "prompt": "隐私说明区域的小卡片，白色圆角底、绿色用户图标和无需登录文字，表达应用无需账号登录。",
+      "status": "generated",
+      "assetId": "asset_7d94e331ee3c49fd",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_3b798e09b3f54cd7",
+      "pageId": "page_page-8",
+      "name": "本地保存隐私卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 528,
+        "y": 753,
+        "width": 125,
+        "height": 136
+      },
+      "prompt": "隐私说明区域的小卡片，白色圆角底、黄色文件夹图标和本地保存文字，表达作品数据保存在本地。",
+      "status": "generated",
+      "assetId": "asset_886a98c22c55418e",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_0e4e3bf32a9b4273",
+      "pageId": "page_page-8",
+      "name": "儿童友好隐私卡",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 668,
+        "y": 753,
+        "width": 114,
+        "height": 136
+      },
+      "prompt": "隐私说明区域的小卡片，白色圆角底、粉红爱心图标和儿童友好文字，强调适合儿童使用。",
+      "status": "generated",
+      "assetId": "asset_49692741f7454897",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_915574603b464534",
+      "pageId": "page_page-8",
+      "name": "清理缓存按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 827,
+        "y": 827,
+        "width": 183,
+        "height": 64
+      },
+      "prompt": "数据管理区域的蓝色清理缓存按钮，带白色垃圾桶图标和白色文字，用于触发缓存清理流程。",
+      "status": "generated",
+      "assetId": "asset_28f0af5470de4a0b",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_d68fd261152e45ad",
+      "pageId": "page_page-8",
+      "name": "重置应用按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1023,
+        "y": 827,
+        "width": 188,
+        "height": 64
+      },
+      "prompt": "数据管理区域的红色警示重置应用按钮，带白色警告图标和文字，用于触发高风险重置确认流程。",
+      "status": "generated",
+      "assetId": "asset_911e2460bc2b4a0d",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_7bb7aac9c9b94a87",
+      "pageId": "page_page-8",
+      "name": "家长确认弹窗",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1273,
+        "y": 146,
+        "width": 377,
+        "height": 334
+      },
+      "prompt": "高风险操作前的家长确认弹窗主体，白色圆角面板、橙色锁图标、家长确认标题、关闭按钮、算术题和输入框，不包含继续按钮。",
+      "status": "generated",
+      "assetId": "asset_b90648fac7f54fb6",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_b18d466cfcea4111",
+      "pageId": "page_page-8",
+      "name": "继续按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1319,
+        "y": 379,
+        "width": 286,
+        "height": 70
+      },
+      "prompt": "家长确认弹窗中的蓝色继续按钮，圆角渐变底、白色文字和投影，用于通过算术门禁后继续操作。",
+      "status": "generated",
+      "assetId": "asset_f29b1fabf33646df",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_9d9a86978aba4090",
+      "pageId": "page_page-8",
+      "name": "二次确认弹窗",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1273,
+        "y": 541,
+        "width": 377,
+        "height": 254
+      },
+      "prompt": "高风险操作的二次确认弹窗主体，白色圆角面板、橙色警示图标、二次确认标题、关闭按钮和影响本地作品或缓存的提示，不包含底部取消和确认按钮。",
+      "status": "generated",
+      "assetId": "asset_aab46243e6e848b9",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_0e1f242de6c1493a",
+      "pageId": "page_page-8",
+      "name": "取消按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1293,
+        "y": 699,
+        "width": 153,
+        "height": 67
+      },
+      "prompt": "二次确认弹窗底部的取消按钮，白色圆角底、蓝色文字和轻微投影，用于放弃高风险操作。",
+      "status": "generated",
+      "assetId": "asset_30daa121d4104dae",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_323241ee47d54075",
+      "pageId": "page_page-8",
+      "name": "确认按钮",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 1461,
+        "y": 699,
+        "width": 154,
+        "height": 67
+      },
+      "prompt": "二次确认弹窗底部的红色确认按钮，圆角渐变底、白色文字和投影，用于最终确认高风险操作。",
+      "status": "generated",
+      "assetId": "asset_e8b6ef2b99fe45c3",
+      "createdAt": "2026-05-08T02:56:56.420Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_cc853f12a3b74abc",
+      "pageId": "page_page-8",
+      "name": "背景音乐图标",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 403,
+        "y": 201,
+        "width": 61,
+        "height": 53
+      },
+      "prompt": "声音设置列表中的背景音乐图标，青绿色圆形底和白色音符，适用于背景音乐开关行。",
+      "status": "generated",
+      "assetId": "asset_f40165cf83fa4da4",
+      "createdAt": "2026-05-08T02:57:43.010Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_af850640d1cf4371",
+      "pageId": "page_page-8",
+      "name": "音效图标",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 409,
+        "y": 270,
+        "width": 50,
+        "height": 54
+      },
+      "prompt": "声音设置列表中的音效图标，橙色圆形底和白色音符，适用于音效开关行。",
+      "status": "generated",
+      "assetId": "asset_da31384346ee4c29",
+      "createdAt": "2026-05-08T02:57:44.603Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_5818e30bd75b496f",
+      "pageId": "page_page-8",
+      "name": "音量图标",
+      "sourceImagePath": "assets/pages/page_page-8/versions/v002.png",
+      "selection": {
+        "x": 401,
+        "y": 341,
+        "width": 58,
+        "height": 52
+      },
+      "prompt": "声音设置列表中的音量图标，紫色圆形底和白色扬声器，适用于音量滑杆行。",
+      "status": "generated",
+      "assetId": "asset_d69eab28d7cd4312",
+      "createdAt": "2026-05-08T02:57:47.108Z",
+      "updatedAt": "2026-05-08T06:43:44.071Z"
+    },
+    {
+      "id": "selection_1b450f2afc8d4a51",
+      "pageId": "page_page-7",
+      "name": "主页返回按钮",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 30,
+        "y": 20,
+        "width": 104,
+        "height": 104
+      },
+      "prompt": "左上角主页返回入口使用的蓝色圆形按钮，包含白色房子图标、玻璃高光、白色描边和轻微投影，适用于我的作品页顶部导航。",
+      "status": "generated",
+      "assetId": "asset_a18e539ba1844201",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_8adcfd3d0bb94aa4",
+      "pageId": "page_page-7",
+      "name": "页面标题字",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 672,
+        "y": 20,
+        "width": 323,
+        "height": 82
+      },
+      "prompt": "“我的作品”标题字素材，深蓝字面、白色粗描边、浅蓝外发光和柔和阴影，适用于我的作品页顶部居中标题。",
+      "status": "generated",
+      "assetId": "asset_a2be978373344110",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_147779b538734082",
+      "pageId": "page_page-7",
+      "name": "普通作品空卡片",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 116,
+        "y": 196,
+        "width": 338,
+        "height": 278
+      },
+      "prompt": "未选中作品卡片空框，白色圆角卡片、浅蓝描边、顶部水纹缩略图占位和底部留白信息区，已移除作品图、名称、时间和状态徽标。",
+      "status": "generated",
+      "assetId": "asset_a6072a1c836f4cc9",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_7b73b24cb903478d",
+      "pageId": "page_page-7",
+      "name": "选中作品空卡片",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 458,
+        "y": 187,
+        "width": 374,
+        "height": 293
+      },
+      "prompt": "选中态作品卡片空框，白色圆角卡片、顶部水纹缩略图占位、底部留白信息区与青色发光描边，已移除作品内容、描述和时间。",
+      "status": "generated",
+      "assetId": "asset_7cf4ef7f193f49de",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_64e7a17da8a040c3",
+      "pageId": "page_page-7",
+      "name": "选中勾选圆标",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 747,
+        "y": 207,
+        "width": 68,
+        "height": 68
+      },
+      "prompt": "作品选中态圆形勾选标记，蓝色渐变圆盘、白色对勾、白色外圈和青色微光，适合叠放在作品卡片右上角。",
+      "status": "generated",
+      "assetId": "asset_1ad4f02e213b4dfb",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_8425c414c2a44dfa",
+      "pageId": "page_page-7",
+      "name": "删除确认弹窗背景",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 960,
+        "y": 486,
+        "width": 394,
+        "height": 189
+      },
+      "prompt": "删除确认弹窗背景素材，白色半透明圆角面板、柔和阴影、浅蓝底部波纹和气泡装饰，已移除标题、正文和操作按钮内容。",
+      "status": "generated",
+      "assetId": "asset_c945d99c978547fd",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_465053fa37564a8e",
+      "pageId": "page_page-7",
+      "name": "底部操作面板背景",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 45,
+        "y": 713,
+        "width": 1583,
+        "height": 228
+      },
+      "prompt": "底部操作面板背景，宽幅白色半透明圆角浮层、顶部拖拽短条、柔和阴影、底部浅蓝海浪与气泡装饰，已移除缩略图、文字、分隔线和按钮。",
+      "status": "generated",
+      "assetId": "asset_25b5885d5c564812",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_51f3a6e0bb2544cd",
+      "pageId": "page_page-7",
+      "name": "继续涂色按钮",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 666,
+        "y": 766,
+        "width": 235,
+        "height": 91
+      },
+      "prompt": "继续涂色操作按钮，蓝色高光圆角底、白色画笔图标和“继续涂色”文字，带轻微阴影，适用于我的作品页底部操作栏。",
+      "status": "generated",
+      "assetId": "asset_b55771bcd01740ef",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_2e059dd4d4364e9d",
+      "pageId": "page_page-7",
+      "name": "去预览按钮",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 915,
+        "y": 766,
+        "width": 211,
+        "height": 91
+      },
+      "prompt": "去预览操作按钮，蓝色高光圆角底、白色眼睛图标和“去预览”文字，带轻微阴影，适用于作品查看入口。",
+      "status": "generated",
+      "assetId": "asset_cb81c539eeaa4308",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_df348daabfd8407e",
+      "pageId": "page_page-7",
+      "name": "送入海洋按钮",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 1145,
+        "y": 766,
+        "width": 229,
+        "height": 91
+      },
+      "prompt": "送入海洋主操作按钮，橙色高光圆角底、白色海浪图标和“送入海洋”文字，带暖色投影，适用于将作品发布到海洋世界。",
+      "status": "generated",
+      "assetId": "asset_f8ed36b889414074",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_d3d9c6883ce040f0",
+      "pageId": "page_page-7",
+      "name": "删除描边按钮",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 1396,
+        "y": 766,
+        "width": 192,
+        "height": 90
+      },
+      "prompt": "删除操作描边按钮，白底红色圆角描边、红色垃圾桶图标和“删除”文字，带轻微阴影，适用于作品删除入口。",
+      "status": "generated",
+      "assetId": "asset_4562e08313474162",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    },
+    {
+      "id": "selection_f0d412eed888434f",
+      "pageId": "page_page-7",
+      "name": "通用成功提示条",
+      "sourceImagePath": "assets/pages/page_page-7/versions/v002.png",
+      "selection": {
+        "x": 723,
+        "y": 866,
+        "width": 220,
+        "height": 61
+      },
+      "prompt": "通用成功 Toast 背景，深灰半透明圆角胶囊、左侧绿色对勾圆标和柔和阴影，右侧已留空用于替换提示文案。",
+      "status": "generated",
+      "assetId": "asset_478491f1ecd44614",
+      "createdAt": "2026-05-08T03:01:10.532Z",
+      "updatedAt": "2026-05-08T06:44:32.127Z"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "spritePath": "assets/sprites/page_page-8/batch_settings_help_chroma_20260508/sprite.png",
+  "keyColor": "#ff00ff",
+  "width": 1254,
+  "height": 1254,
+  "padding": 8,
+  "minArea": 180,
+  "assets": [
+    {
+      "selectionId": "selection_45b7fe8e4bae46be",
+      "name": "主页返回按钮",
+      "description": "设置与帮助页面顶部左侧的圆形蓝色主页返回按钮，白色房子图标、白色描边和柔和投影，适合儿童 Pad 横屏界面导航返回。",
+      "cellRect": { "x": 20, "y": 50, "width": 180, "height": 180 },
+      "outputPath": "assets/slices/page_page-8/asset_188fc29d580841c4.png"
+    },
+    {
+      "selectionId": "selection_f0cf154876614c5c",
+      "name": "设置与帮助标题",
+      "description": "设置与帮助页面主标题文字，蓝色圆润大字搭配白色描边和浅阴影，用于页面顶部标题区。",
+      "cellRect": { "x": 190, "y": 70, "width": 480, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_d408c98487bc41ec.png"
+    },
+    {
+      "selectionId": "selection_325775ae7d9d4ccb",
+      "name": "声音导航按钮",
+      "description": "左侧分组导航的选中态声音按钮，蓝色渐变圆角底、白色扬声器图标和白色文字，表示当前停留在声音设置分组。",
+      "cellRect": { "x": 670, "y": 80, "width": 300, "height": 150 },
+      "outputPath": "assets/slices/page_page-8/asset_94541af5591c4c05.png"
+    },
+    {
+      "selectionId": "selection_b477d6dffc2747e3",
+      "name": "数据导航按钮",
+      "description": "左侧分组导航的数据入口按钮，白色圆角卡片、蓝色数据库图标和深蓝文字，用于切换到数据管理分组。",
+      "cellRect": { "x": 950, "y": 80, "width": 280, "height": 150 },
+      "outputPath": "assets/slices/page_page-8/asset_e2a4da844039498c.png"
+    },
+    {
+      "selectionId": "selection_3555a50ab96f42fd",
+      "name": "帮助导航按钮",
+      "description": "左侧分组导航的帮助入口按钮，白色圆角卡片、蓝色问号图标和深蓝文字，用于切换基础操作帮助内容。",
+      "cellRect": { "x": 35, "y": 240, "width": 270, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_6d54a6ff4b3c4868.png"
+    },
+    {
+      "selectionId": "selection_6c48c628a2974254",
+      "name": "关于导航按钮",
+      "description": "左侧分组导航的关于入口按钮，白色圆角卡片、蓝色信息图标和深蓝文字，用于切换关于说明内容。",
+      "cellRect": { "x": 315, "y": 240, "width": 275, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_2062640e45a34119.png"
+    },
+    {
+      "selectionId": "selection_29320305b6c64030",
+      "name": "隐私说明导航按钮",
+      "description": "左侧分组导航的隐私说明入口按钮，白色圆角卡片、蓝色盾牌锁图标和深蓝文字，用于进入儿童友好的隐私说明。",
+      "cellRect": { "x": 595, "y": 240, "width": 285, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_5e152e3f572e4b1c.png"
+    },
+    {
+      "selectionId": "selection_bbcfa0356985463e",
+      "name": "选模板步骤卡",
+      "description": "基础操作帮助中的第一步卡片，包含数字 1、选模板标题、小丑鱼模板缩略图和手指点按提示，说明选择喜欢的海洋伙伴模板。",
+      "cellRect": { "x": 35, "y": 400, "width": 220, "height": 330 },
+      "outputPath": "assets/slices/page_page-8/asset_70b32e31228640b7.png"
+    },
+    {
+      "selectionId": "selection_448e3fd750644cd7",
+      "name": "点按涂色步骤卡",
+      "description": "基础操作帮助中的第二步卡片，包含数字 2、点按涂色标题、海豚与手指点按图标，说明点按封闭区域即可填色。",
+      "cellRect": { "x": 250, "y": 400, "width": 220, "height": 330 },
+      "outputPath": "assets/slices/page_page-8/asset_e9a00c1b8e784edb.png"
+    },
+    {
+      "selectionId": "selection_03267911bb434411",
+      "name": "撤销步骤卡",
+      "description": "基础操作帮助中的第三步卡片，包含数字 3、撤销标题和蓝色回退箭头，说明可使用撤销或重做修改颜色。",
+      "cellRect": { "x": 460, "y": 400, "width": 210, "height": 330 },
+      "outputPath": "assets/slices/page_page-8/asset_95502f4241a14fab.png"
+    },
+    {
+      "selectionId": "selection_4cdb72f685684369",
+      "name": "完成入海步骤卡",
+      "description": "基础操作帮助中的第四步卡片，包含数字 4、完成入海标题和鱼缸海洋插画，说明完成后将作品送入海洋。",
+      "cellRect": { "x": 660, "y": 400, "width": 220, "height": 330 },
+      "outputPath": "assets/slices/page_page-8/asset_7d2cd8c18bc8410f.png"
+    },
+    {
+      "selectionId": "selection_70a15dce629e48fd",
+      "name": "无需登录隐私卡",
+      "description": "隐私说明区域的小卡片，白色圆角底、绿色用户图标和无需登录文字，表达应用无需账号登录。",
+      "cellRect": { "x": 35, "y": 735, "width": 150, "height": 210 },
+      "outputPath": "assets/slices/page_page-8/asset_7d94e331ee3c49fd.png"
+    },
+    {
+      "selectionId": "selection_3b798e09b3f54cd7",
+      "name": "本地保存隐私卡",
+      "description": "隐私说明区域的小卡片，白色圆角底、黄色文件夹图标和本地保存文字，表达作品数据保存在本地。",
+      "cellRect": { "x": 185, "y": 735, "width": 150, "height": 210 },
+      "outputPath": "assets/slices/page_page-8/asset_886a98c22c55418e.png"
+    },
+    {
+      "selectionId": "selection_0e4e3bf32a9b4273",
+      "name": "儿童友好隐私卡",
+      "description": "隐私说明区域的小卡片，白色圆角底、粉红爱心图标和儿童友好文字，强调适合儿童使用。",
+      "cellRect": { "x": 330, "y": 735, "width": 150, "height": 210 },
+      "outputPath": "assets/slices/page_page-8/asset_49692741f7454897.png"
+    },
+    {
+      "selectionId": "selection_915574603b464534",
+      "name": "清理缓存按钮",
+      "description": "数据管理区域的蓝色清理缓存按钮，带白色垃圾桶图标和白色文字，用于触发缓存清理流程。",
+      "cellRect": { "x": 470, "y": 775, "width": 210, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_28f0af5470de4a0b.png"
+    },
+    {
+      "selectionId": "selection_d68fd261152e45ad",
+      "name": "重置应用按钮",
+      "description": "数据管理区域的红色警示重置应用按钮，带白色警告图标和文字，用于触发高风险重置确认流程。",
+      "cellRect": { "x": 665, "y": 775, "width": 210, "height": 140 },
+      "outputPath": "assets/slices/page_page-8/asset_911e2460bc2b4a0d.png"
+    },
+    {
+      "selectionId": "selection_7bb7aac9c9b94a87",
+      "name": "家长确认弹窗",
+      "description": "高风险操作前的家长确认弹窗主体，白色圆角面板、橙色锁图标、家长确认标题、关闭按钮、算术题和输入框，不包含继续按钮。",
+      "cellRect": { "x": 880, "y": 300, "width": 350, "height": 330 },
+      "outputPath": "assets/slices/page_page-8/asset_b90648fac7f54fb6.png"
+    },
+    {
+      "selectionId": "selection_b18d466cfcea4111",
+      "name": "继续按钮",
+      "description": "家长确认弹窗中的蓝色继续按钮，圆角渐变底、白色文字和投影，用于通过算术门禁后继续操作。",
+      "cellRect": { "x": 70, "y": 970, "width": 330, "height": 130 },
+      "outputPath": "assets/slices/page_page-8/asset_f29b1fabf33646df.png"
+    },
+    {
+      "selectionId": "selection_9d9a86978aba4090",
+      "name": "二次确认弹窗",
+      "description": "高风险操作的二次确认弹窗主体，白色圆角面板、橙色警示图标、二次确认标题、关闭按钮和影响本地作品或缓存的提示，不包含底部取消和确认按钮。",
+      "cellRect": { "x": 870, "y": 680, "width": 360, "height": 290 },
+      "outputPath": "assets/slices/page_page-8/asset_aab46243e6e848b9.png"
+    },
+    {
+      "selectionId": "selection_0e1f242de6c1493a",
+      "name": "取消按钮",
+      "description": "二次确认弹窗底部的取消按钮，白色圆角底、蓝色文字和轻微投影，用于放弃高风险操作。",
+      "cellRect": { "x": 50, "y": 1090, "width": 290, "height": 130 },
+      "outputPath": "assets/slices/page_page-8/asset_30daa121d4104dae.png"
+    },
+    {
+      "selectionId": "selection_323241ee47d54075",
+      "name": "确认按钮",
+      "description": "二次确认弹窗底部的红色确认按钮，圆角渐变底、白色文字和投影，用于最终确认高风险操作。",
+      "cellRect": { "x": 330, "y": 1090, "width": 270, "height": 130 },
+      "outputPath": "assets/slices/page_page-8/asset_e8b6ef2b99fe45c3.png"
+    },
+    {
+      "selectionId": "selection_cc853f12a3b74abc",
+      "name": "背景音乐图标",
+      "description": "声音设置列表中的背景音乐图标，青绿色圆形底和白色音符，适用于背景音乐开关行。",
+      "cellRect": { "x": 735, "y": 1040, "width": 150, "height": 170 },
+      "outputPath": "assets/slices/page_page-8/asset_f40165cf83fa4da4.png"
+    },
+    {
+      "selectionId": "selection_af850640d1cf4371",
+      "name": "音效图标",
+      "description": "声音设置列表中的音效图标，橙色圆形底和白色音符，适用于音效开关行。",
+      "cellRect": { "x": 905, "y": 1040, "width": 150, "height": 170 },
+      "outputPath": "assets/slices/page_page-8/asset_da31384346ee4c29.png"
+    },
+    {
+      "selectionId": "selection_5818e30bd75b496f",
+      "name": "音量图标",
+      "description": "声音设置列表中的音量图标，紫色圆形底和白色扬声器，适用于音量滑杆行。",
+      "cellRect": { "x": 1075, "y": 1040, "width": 160, "height": 170 },
+      "outputPath": "assets/slices/page_page-8/asset_d69eab28d7cd4312.png"
+    }
+  ]
+}

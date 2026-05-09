@@ -1,0 +1,127 @@
+{
+  "spritePath": "assets/sprites/page_page-3/batch_001/sprite.png",
+  "width": 1254,
+  "height": 1254,
+  "assets": [
+    {
+      "selectionId": "selection_57919f1aa8024e1d",
+      "name": "主页返回按钮",
+      "description": "模板选择页顶部左侧使用的圆形蓝色主页返回按钮，白色房子图标、厚白描边和轻阴影，适合叠加在浅海背景上。",
+      "spriteRect": {
+        "x": 77,
+        "y": 103,
+        "width": 169,
+        "height": 185
+      },
+      "outputPath": "assets/slices/page_page-3/asset_6d1189840142493b.png"
+    },
+    {
+      "selectionId": "selection_b6f267437ec94992",
+      "name": "推荐分类选中标签",
+      "description": "模板选择页分类栏的推荐选中态胶囊标签，橙色高亮、白色描边，并带右上角黄色星标装饰。",
+      "spriteRect": {
+        "x": 291,
+        "y": 86,
+        "width": 331,
+        "height": 180
+      },
+      "outputPath": "assets/slices/page_page-3/asset_9bad61b099914b6a.png"
+    },
+    {
+      "selectionId": "selection_7e71ffb7ae464e86",
+      "name": "简单分类标签",
+      "description": "模板选择页分类栏的未选中简单胶囊标签，白色亮面底、蓝灰描边和深蓝中文文字，用于横向筛选标签。",
+      "spriteRect": {
+        "x": 651,
+        "y": 112,
+        "width": 313,
+        "height": 153
+      },
+      "outputPath": "assets/slices/page_page-3/asset_a3c01a39d5a44c6b.png"
+    },
+    {
+      "selectionId": "selection_bb3b4584d0dc4850",
+      "name": "筛选按钮",
+      "description": "模板选择页顶部右侧圆形蓝色筛选按钮，包含白色滑杆图标、厚白边框和轻微下投影。",
+      "spriteRect": {
+        "x": 999,
+        "y": 100,
+        "width": 173,
+        "height": 189
+      },
+      "outputPath": "assets/slices/page_page-3/asset_ce6bd54ca7c641da.png"
+    },
+    {
+      "selectionId": "selection_074cffabd1884783",
+      "name": "小海豚模板卡片",
+      "description": "模板选择页的小海豚模板卡片选中态，包含圆角白色卡片、浅蓝水下缩略图、可爱海豚、标题、小海豚难度星级和说明文字。",
+      "spriteRect": {
+        "x": 83,
+        "y": 327,
+        "width": 512,
+        "height": 529
+      },
+      "outputPath": "assets/slices/page_page-3/asset_f5070e6627e34c30.png"
+    },
+    {
+      "selectionId": "selection_6ea31855b37b4b1d",
+      "name": "黄色难度星",
+      "description": "模板卡片内用于表示已达成难度的单个黄色星级图标，带橙色边缘和轻阴影。",
+      "spriteRect": {
+        "x": 638,
+        "y": 382,
+        "width": 114,
+        "height": 125
+      },
+      "outputPath": "assets/slices/page_page-3/asset_67dc9df5c1ca41aa.png"
+    },
+    {
+      "selectionId": "selection_2748c89d24d94ef9",
+      "name": "空心难度星",
+      "description": "模板卡片内用于表示未填满难度的单个灰蓝空心星级图标，白色内填充并带轻阴影。",
+      "spriteRect": {
+        "x": 638,
+        "y": 591,
+        "width": 113,
+        "height": 119
+      },
+      "outputPath": "assets/slices/page_page-3/asset_76b9a27523dc4ea5.png"
+    },
+    {
+      "selectionId": "selection_237c47fecf9d4cdd",
+      "name": "加载失败卡片",
+      "description": "模板选择页加载失败状态卡片，白色圆角面板内含紫色贝壳插画、加载失败提示和蓝色重试按钮。",
+      "spriteRect": {
+        "x": 782,
+        "y": 379,
+        "width": 401,
+        "height": 464
+      },
+      "outputPath": "assets/slices/page_page-3/asset_294185f3b03b47eb.png"
+    },
+    {
+      "selectionId": "selection_905affd2604e4a04",
+      "name": "重试按钮",
+      "description": "模板选择页加载失败状态使用的蓝色亮面重试按钮，圆角胶囊形态，白色中文文字居中。",
+      "spriteRect": {
+        "x": 814,
+        "y": 876,
+        "width": 290,
+        "height": 109
+      },
+      "outputPath": "assets/slices/page_page-3/asset_297d77424838408d.png"
+    },
+    {
+      "selectionId": "selection_4560c642828a494f",
+      "name": "涂色操作提示条",
+      "description": "模板选择页底部首次进入编辑器前的白色圆角提示条，含点按手势图标、橙色撤销箭头、操作说明文字和右侧关闭图标。",
+      "spriteRect": {
+        "x": 159,
+        "y": 1001,
+        "width": 979,
+        "height": 175
+      },
+      "outputPath": "assets/slices/page_page-3/asset_5f58779077fe4363.png"
+    }
+  ]
+}

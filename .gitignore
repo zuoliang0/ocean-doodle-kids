@@ -1,0 +1,13 @@
+.DS_Store
+.playwright-mcp/
+tmp/
+logs/
+tmp_*.html
+node_modules/
+dist/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

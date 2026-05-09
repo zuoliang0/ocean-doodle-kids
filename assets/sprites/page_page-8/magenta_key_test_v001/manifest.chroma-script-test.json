@@ -1,0 +1,56 @@
+{
+  "spritePath": "assets/sprites/page_page-8/magenta_key_test_v001/sprite.png",
+  "keyColor": "#ff00ff",
+  "padding": 8,
+  "minArea": 4000,
+  "assets": [
+    {
+      "selectionId": "test_home",
+      "name": "主页按钮",
+      "description": "测试",
+      "cellRect": {
+        "x": 0,
+        "y": 0,
+        "width": 627,
+        "height": 627
+      },
+      "outputPath": "assets/sprites/page_page-8/magenta_key_test_v001/script_slices/home.png"
+    },
+    {
+      "selectionId": "test_sound",
+      "name": "声音按钮",
+      "description": "测试",
+      "cellRect": {
+        "x": 627,
+        "y": 0,
+        "width": 627,
+        "height": 627
+      },
+      "outputPath": "assets/sprites/page_page-8/magenta_key_test_v001/script_slices/sound.png"
+    },
+    {
+      "selectionId": "test_card",
+      "name": "选模板卡",
+      "description": "测试",
+      "cellRect": {
+        "x": 0,
+        "y": 627,
+        "width": 627,
+        "height": 627
+      },
+      "outputPath": "assets/sprites/page_page-8/magenta_key_test_v001/script_slices/card.png"
+    },
+    {
+      "selectionId": "test_modal",
+      "name": "确认弹窗",
+      "description": "测试",
+      "cellRect": {
+        "x": 627,
+        "y": 627,
+        "width": 627,
+        "height": 627
+      },
+      "outputPath": "assets/sprites/page_page-8/magenta_key_test_v001/script_slices/modal.png"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "spritePath": "assets/sprites/page_page-4/batch_page4_20260508/sprite.png",
+  "width": 4096,
+  "height": 4096,
+  "assets": [
+    {
+      "selectionId": "selection_49a62b0cd1664aba",
+      "name": "返回按钮",
+      "description": "圆形蓝色返回按钮，白色描边和左箭头，用于完成预览页返回继续编辑入口。",
+      "spriteRect": {
+        "x": 128,
+        "y": 128,
+        "width": 110,
+        "height": 108
+      },
+      "outputPath": "assets/slices/page_page-4/asset_a2299903d3aa43b1.png"
+    },
+    {
+      "selectionId": "selection_228444cc36f54e8e",
+      "name": "已保存徽章",
+      "description": "浅绿色圆角已保存状态徽章，含绿色对勾和“已保存”文字，用于完成预览页顶部保存状态。",
+      "spriteRect": {
+        "x": 302,
+        "y": 128,
+        "width": 164,
+        "height": 61
+      },
+      "outputPath": "assets/slices/page_page-4/asset_fe9d709bc7db4884.png"
+    },
+    {
+      "selectionId": "selection_dad2d095db134cdb",
+      "name": "作品预览框",
+      "description": "大幅圆角作品预览容器，展示泡泡中的蓝色海豚涂色作品和海底装饰，用于完成预览页中央主视觉。",
+      "spriteRect": {
+        "x": 530,
+        "y": 128,
+        "width": 1004,
+        "height": 594
+      },
+      "outputPath": "assets/slices/page_page-4/asset_dcf3235a1bc044a1.png"
+    },
+    {
+      "selectionId": "selection_3f402876a7054961",
+      "name": "入海进度提示",
+      "description": "蓝色圆角进度提示条，含白色加载圆点和“正在送入海洋”文字，用于送入海洋动画状态。",
+      "spriteRect": {
+        "x": 1598,
+        "y": 128,
+        "width": 319,
+        "height": 91
+      },
+      "outputPath": "assets/slices/page_page-4/asset_196a763633e24704.png"
+    },
+    {
+      "selectionId": "selection_d8063cd4ee484309",
+      "name": "继续涂色按钮",
+      "description": "白底蓝边的大号“继续涂色”按钮，用于完成预览页底部次要操作。",
+      "spriteRect": {
+        "x": 1981,
+        "y": 128,
+        "width": 343,
+        "height": 115
+      },
+      "outputPath": "assets/slices/page_page-4/asset_78f19d0ad3934f69.png"
+    },
+    {
+      "selectionId": "selection_b9751d7cd8cf4976",
+      "name": "送入海洋按钮",
+      "description": "珊瑚橙渐变主按钮，含白色海浪图标和“送入海洋”文字，用于完成预览页底部主操作。",
+      "spriteRect": {
+        "x": 2388,
+        "y": 128,
+        "width": 543,
+        "height": 124
+      },
+      "outputPath": "assets/slices/page_page-4/asset_65ae53bf3c3e4b74.png"
+    },
+    {
+      "selectionId": "selection_d00870cc1cd34c62",
+      "name": "分享按钮",
+      "description": "白色圆形分享按钮，含蓝色三点分享图标，用于完成预览页辅助分享入口。",
+      "spriteRect": {
+        "x": 2995,
+        "y": 128,
+        "width": 85,
+        "height": 85
+      },
+      "outputPath": "assets/slices/page_page-4/asset_53ad3b1bba9549db.png"
+    },
+    {
+      "selectionId": "selection_d398292063bb429d",
+      "name": "空间不足弹窗",
+      "description": "空间不足错误弹窗，含关闭按钮、提示文案以及“取消”“去设置”操作，用于保存或入海失败处理。",
+      "spriteRect": {
+        "x": 3144,
+        "y": 128,
+        "width": 290,
+        "height": 229
+      },
+      "outputPath": "assets/slices/page_page-4/asset_5aa03fc3b72348eb.png"
+    },
+    {
+      "selectionId": "selection_7e67a06230c74084",
+      "name": "入海成功卡片",
+      "description": "入海成功提示卡片，含绿色对勾、“已送入海洋”和去海洋世界按钮，用于入海成功状态。",
+      "spriteRect": {
+        "x": 128,
+        "y": 786,
+        "width": 329,
+        "height": 284
+      },
+      "outputPath": "assets/slices/page_page-4/asset_02278d8bd45d48c3.png"
+    },
+    {
+      "selectionId": "selection_7b9aaea7c9b248ce",
+      "name": "成功对勾徽章",
+      "description": "绿色圆形成功对勾徽章，用于成功卡片或完成状态提示。",
+      "spriteRect": {
+        "x": 521,
+        "y": 786,
+        "width": 66,
+        "height": 66
+      },
+      "outputPath": "assets/slices/page_page-4/asset_13d0f08f506b401a.png"
+    },
+    {
+      "selectionId": "selection_a08a071b05b94efb",
+      "name": "去海洋世界按钮",
+      "description": "蓝色小号圆角“去海洋世界看看”按钮，用于入海成功卡片的跳转操作。",
+      "spriteRect": {
+        "x": 651,
+        "y": 786,
+        "width": 232,
+        "height": 56
+      },
+      "outputPath": "assets/slices/page_page-4/asset_30ac8ed999684b17.png"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "pageId": "page_page-2",
+  "spritePath": "assets/sprites/page_page-2/poc/sprite_v001.png",
+  "width": 4096,
+  "height": 4096,
+  "assets": [
+    {
+      "selectionId": "selection_a8a84bfb99b2412c",
+      "name": "启动与主页 素材 1-不含加载中",
+      "spriteRect": {
+        "x": 64,
+        "y": 64,
+        "width": 380,
+        "height": 334
+      },
+      "sourceRect": {
+        "x": 461,
+        "y": 161,
+        "width": 380,
+        "height": 334
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_a8a84bfb99b2412c.png"
+    },
+    {
+      "selectionId": "selection_c73474d82fd54485",
+      "name": "启动与主页 素材 2",
+      "spriteRect": {
+        "x": 508,
+        "y": 64,
+        "width": 142,
+        "height": 112
+      },
+      "sourceRect": {
+        "x": 347,
+        "y": 269,
+        "width": 142,
+        "height": 112
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_c73474d82fd54485.png"
+    },
+    {
+      "selectionId": "selection_4cfd00f5218646a2",
+      "name": "启动与主页 素材 3",
+      "spriteRect": {
+        "x": 714,
+        "y": 64,
+        "width": 392,
+        "height": 323
+      },
+      "sourceRect": {
+        "x": 852,
+        "y": 170,
+        "width": 392,
+        "height": 323
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_4cfd00f5218646a2.png"
+    },
+    {
+      "selectionId": "selection_ebe8f714923f48ce",
+      "name": "启动与主页 素材 4",
+      "spriteRect": {
+        "x": 1170,
+        "y": 64,
+        "width": 365,
+        "height": 139
+      },
+      "sourceRect": {
+        "x": 23,
+        "y": 12,
+        "width": 365,
+        "height": 139
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_ebe8f714923f48ce.png"
+    },
+    {
+      "selectionId": "selection_f96d49d3d07d4b6e",
+      "name": "启动与主页 素材 5",
+      "spriteRect": {
+        "x": 1599,
+        "y": 64,
+        "width": 145,
+        "height": 98
+      },
+      "sourceRect": {
+        "x": 1268,
+        "y": 34,
+        "width": 145,
+        "height": 98
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_f96d49d3d07d4b6e.png"
+    },
+    {
+      "selectionId": "selection_7b13118d4b1f42be",
+      "name": "启动与主页 素材 6",
+      "spriteRect": {
+        "x": 1808,
+        "y": 64,
+        "width": 107,
+        "height": 113
+      },
+      "sourceRect": {
+        "x": 1416,
+        "y": 27,
+        "width": 107,
+        "height": 113
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_7b13118d4b1f42be.png"
+    },
+    {
+      "selectionId": "selection_aed9d581e22940ac",
+      "name": "启动与主页 素材 7",
+      "spriteRect": {
+        "x": 1979,
+        "y": 64,
+        "width": 102,
+        "height": 109
+      },
+      "sourceRect": {
+        "x": 1536,
+        "y": 31,
+        "width": 102,
+        "height": 109
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_aed9d581e22940ac.png"
+    },
+    {
+      "selectionId": "selection_a12902cc57db4d50",
+      "name": "启动与主页 素材 8-弹出框背景",
+      "spriteRect": {
+        "x": 2145,
+        "y": 64,
+        "width": 444,
+        "height": 354
+      },
+      "sourceRect": {
+        "x": 1184,
+        "y": 507,
+        "width": 444,
+        "height": 354
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_a12902cc57db4d50.png"
+    },
+    {
+      "selectionId": "selection_d60f1668456447d1",
+      "name": "启动与主页 素材 9",
+      "spriteRect": {
+        "x": 2653,
+        "y": 64,
+        "width": 367,
+        "height": 290
+      },
+      "sourceRect": {
+        "x": 459,
+        "y": 513,
+        "width": 367,
+        "height": 290
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_d60f1668456447d1.png"
+    },
+    {
+      "selectionId": "selection_d9e4350510774be6",
+      "name": "启动与主页 素材 10-按钮背景",
+      "spriteRect": {
+        "x": 3084,
+        "y": 64,
+        "width": 151,
+        "height": 85
+      },
+      "sourceRect": {
+        "x": 1233,
+        "y": 657,
+        "width": 151,
+        "height": 85
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_d9e4350510774be6.png"
+    },
+    {
+      "selectionId": "selection_46ce8756a58c4c22",
+      "name": "启动与主页 素材 11-退出按钮背景",
+      "spriteRect": {
+        "x": 3299,
+        "y": 64,
+        "width": 170,
+        "height": 96
+      },
+      "sourceRect": {
+        "x": 1402,
+        "y": 649,
+        "width": 170,
+        "height": 96
+      },
+      "outputPath": "assets/sprites/page_page-2/poc/split/selection_46ce8756a58c4c22.png"
+    }
+  ]
+}

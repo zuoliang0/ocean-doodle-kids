@@ -1,0 +1,151 @@
+{
+  "spritePath": "assets/sprites/page_page-7/batch_20260508_gallery/sprite.png",
+  "width": 4096,
+  "height": 4096,
+  "assets": [
+    {
+      "selectionId": "selection_1b450f2afc8d4a51",
+      "name": "主页返回按钮",
+      "description": "左上角主页返回入口使用的蓝色圆形按钮，包含白色房子图标、玻璃高光、白色描边和轻微投影，适用于我的作品页顶部导航。",
+      "spriteRect": {
+        "x": 128,
+        "y": 128,
+        "width": 104,
+        "height": 104
+      },
+      "outputPath": "assets/slices/page_page-7/asset_a18e539ba1844201.png"
+    },
+    {
+      "selectionId": "selection_8adcfd3d0bb94aa4",
+      "name": "页面标题字",
+      "description": "“我的作品”标题字素材，深蓝字面、白色粗描边、浅蓝外发光和柔和阴影，适用于我的作品页顶部居中标题。",
+      "spriteRect": {
+        "x": 296,
+        "y": 128,
+        "width": 323,
+        "height": 82
+      },
+      "outputPath": "assets/slices/page_page-7/asset_a2be978373344110.png"
+    },
+    {
+      "selectionId": "selection_147779b538734082",
+      "name": "普通作品空卡片",
+      "description": "未选中作品卡片空框，白色圆角卡片、浅蓝描边、顶部水纹缩略图占位和底部留白信息区，已移除作品图、名称、时间和状态徽标。",
+      "spriteRect": {
+        "x": 683,
+        "y": 128,
+        "width": 338,
+        "height": 278
+      },
+      "outputPath": "assets/slices/page_page-7/asset_a6072a1c836f4cc9.png"
+    },
+    {
+      "selectionId": "selection_7b73b24cb903478d",
+      "name": "选中作品空卡片",
+      "description": "选中态作品卡片空框，白色圆角卡片、顶部水纹缩略图占位、底部留白信息区与青色发光描边，已移除作品内容、描述和时间。",
+      "spriteRect": {
+        "x": 1085,
+        "y": 128,
+        "width": 374,
+        "height": 293
+      },
+      "outputPath": "assets/slices/page_page-7/asset_7cf4ef7f193f49de.png"
+    },
+    {
+      "selectionId": "selection_64e7a17da8a040c3",
+      "name": "选中勾选圆标",
+      "description": "作品选中态圆形勾选标记，蓝色渐变圆盘、白色对勾、白色外圈和青色微光，适合叠放在作品卡片右上角。",
+      "spriteRect": {
+        "x": 1523,
+        "y": 128,
+        "width": 68,
+        "height": 68
+      },
+      "outputPath": "assets/slices/page_page-7/asset_1ad4f02e213b4dfb.png"
+    },
+    {
+      "selectionId": "selection_8425c414c2a44dfa",
+      "name": "删除确认弹窗背景",
+      "description": "删除确认弹窗背景素材，白色半透明圆角面板、柔和阴影、浅蓝底部波纹和气泡装饰，已移除标题、正文和操作按钮内容。",
+      "spriteRect": {
+        "x": 1655,
+        "y": 128,
+        "width": 394,
+        "height": 189
+      },
+      "outputPath": "assets/slices/page_page-7/asset_c945d99c978547fd.png"
+    },
+    {
+      "selectionId": "selection_465053fa37564a8e",
+      "name": "底部操作面板背景",
+      "description": "底部操作面板背景，宽幅白色半透明圆角浮层、顶部拖拽短条、柔和阴影、底部浅蓝海浪与气泡装饰，已移除缩略图、文字、分隔线和按钮。",
+      "spriteRect": {
+        "x": 128,
+        "y": 485,
+        "width": 1583,
+        "height": 228
+      },
+      "outputPath": "assets/slices/page_page-7/asset_25b5885d5c564812.png"
+    },
+    {
+      "selectionId": "selection_51f3a6e0bb2544cd",
+      "name": "继续涂色按钮",
+      "description": "继续涂色操作按钮，蓝色高光圆角底、白色画笔图标和“继续涂色”文字，带轻微阴影，适用于我的作品页底部操作栏。",
+      "spriteRect": {
+        "x": 1775,
+        "y": 485,
+        "width": 235,
+        "height": 91
+      },
+      "outputPath": "assets/slices/page_page-7/asset_b55771bcd01740ef.png"
+    },
+    {
+      "selectionId": "selection_2e059dd4d4364e9d",
+      "name": "去预览按钮",
+      "description": "去预览操作按钮，蓝色高光圆角底、白色眼睛图标和“去预览”文字，带轻微阴影，适用于作品查看入口。",
+      "spriteRect": {
+        "x": 2074,
+        "y": 485,
+        "width": 211,
+        "height": 91
+      },
+      "outputPath": "assets/slices/page_page-7/asset_cb81c539eeaa4308.png"
+    },
+    {
+      "selectionId": "selection_df348daabfd8407e",
+      "name": "送入海洋按钮",
+      "description": "送入海洋主操作按钮，橙色高光圆角底、白色海浪图标和“送入海洋”文字，带暖色投影，适用于将作品发布到海洋世界。",
+      "spriteRect": {
+        "x": 2349,
+        "y": 485,
+        "width": 229,
+        "height": 91
+      },
+      "outputPath": "assets/slices/page_page-7/asset_f8ed36b889414074.png"
+    },
+    {
+      "selectionId": "selection_d3d9c6883ce040f0",
+      "name": "删除描边按钮",
+      "description": "删除操作描边按钮，白底红色圆角描边、红色垃圾桶图标和“删除”文字，带轻微阴影，适用于作品删除入口。",
+      "spriteRect": {
+        "x": 2642,
+        "y": 485,
+        "width": 192,
+        "height": 90
+      },
+      "outputPath": "assets/slices/page_page-7/asset_4562e08313474162.png"
+    },
+    {
+      "selectionId": "selection_f0d412eed888434f",
+      "name": "通用成功提示条",
+      "description": "通用成功 Toast 背景，深灰半透明圆角胶囊、左侧绿色对勾圆标和柔和阴影，右侧已留空用于替换提示文案。",
+      "spriteRect": {
+        "x": 2898,
+        "y": 485,
+        "width": 220,
+        "height": 61
+      },
+      "outputPath": "assets/slices/page_page-7/asset_478491f1ecd44614.png"
+    }
+  ]
+}
