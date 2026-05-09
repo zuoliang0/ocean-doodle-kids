@@ -6,15 +6,28 @@
 
 这个项目的产品设计与开发探索使用 [cxDesinger](https://github.com/zuoliang0/cxDesinger) 完成。它不是一个商业化产品模板，更像是一次把 AI 辅助产品设计、视觉稿、切片资产和前端实现串起来的实验。
 
-## 设计预览
+## 设计稿 vs 当前实现
 
-| 主页 | 模板选择 |
-| --- | --- |
-| ![主页设计稿](assets/pages/page_page-2/versions/v001.png) | ![模板选择设计稿](assets/pages/page_page-3/versions/v001.png) |
+下面左侧是设计探索阶段生成的页面稿，右侧是本地应用在 1024x768 横屏视口下截取的运行截图。这个对比也是这个项目想保留下来的部分：它不是只展示“最好看的最终结果”，也展示 AI 辅助设计到工程实现之间还有多少距离。
 
-| 涂色编辑器 | 海洋世界 |
-| --- | --- |
-| ![涂色编辑器设计稿](assets/pages/page_page-3_2/versions/v002.png) | ![海洋世界设计稿](assets/pages/page_page-6/versions/v003.png) |
+| 页面 | 设计稿 | 当前实现 |
+| --- | --- | --- |
+| 主页 | <img src="assets/pages/page_page-2/versions/v001.png" width="360" alt="主页设计稿" /> | <img src="assets/readme/screenshots/home.png" width="360" alt="主页实现截图" /> |
+| 模板选择 | <img src="assets/pages/page_page-3/versions/v001.png" width="360" alt="模板选择设计稿" /> | <img src="assets/readme/screenshots/templates.png" width="360" alt="模板选择实现截图" /> |
+| 涂色编辑器 | <img src="assets/pages/page_page-3_2/versions/v002.png" width="360" alt="涂色编辑器设计稿" /> | <img src="assets/readme/screenshots/color.png" width="360" alt="涂色编辑器实现截图" /> |
+| 完成预览 | <img src="assets/pages/page_page-4/versions/v001.png" width="360" alt="完成预览设计稿" /> | <img src="assets/readme/screenshots/preview.png" width="360" alt="完成预览实现截图" /> |
+| 海洋世界 | <img src="assets/pages/page_page-6/versions/v003.png" width="360" alt="海洋世界设计稿" /> | <img src="assets/readme/screenshots/ocean.png" width="360" alt="海洋世界实现截图" /> |
+| 我的作品 | <img src="assets/pages/page_page-7/versions/v002.png" width="360" alt="我的作品设计稿" /> | <img src="assets/readme/screenshots/gallery.png" width="360" alt="我的作品实现截图" /> |
+| 设置与帮助 | <img src="assets/pages/page_page-8/versions/v002.png" width="360" alt="设置与帮助设计稿" /> | <img src="assets/readme/screenshots/settings.png" width="360" alt="设置与帮助实现截图" /> |
+
+## 关于 AI 辅助的局限
+
+这个项目大量使用 AI 参与产品规划、界面设计、资产切片和代码实现，效率很高，但并不意味着可以完全自动得到一个成熟产品。目前能明显看到几个局限：
+
+- 设计稿到代码的视觉还原仍需要人工判断，尤其是间距、层级、动画节奏和儿童触控细节。
+- 生成资产会带来冗余，切片命名、复用关系和资源体积都需要后续整理。
+- AI 更擅长快速搭出可运行路径，但对真实儿童使用场景下的误触、耐心、理解成本，还需要真实测试来校准。
+- 当前实现是 MVP 原型，一些交互和动态效果还偏简化，不能把它当成完成度很高的生产级应用。
 
 ## 它现在能做什么
 
